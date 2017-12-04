@@ -1,0 +1,829 @@
+I, [2017-12-04T22:27:29.275844 #14636]  INFO -- default-ubuntu-1604: -----> Cleaning up any prior instances of <default-ubuntu-1604>
+I, [2017-12-04T22:27:29.276844 #14636]  INFO -- default-ubuntu-1604: -----> Destroying <default-ubuntu-1604>...
+I, [2017-12-04T22:27:33.351361 #14636]  INFO -- default-ubuntu-1604: ==> default: Forcing shutdown of VM...
+I, [2017-12-04T22:27:34.832982 #14636]  INFO -- default-ubuntu-1604: ==> default: Destroying VM and associated drives...
+I, [2017-12-04T22:27:35.268606 #14636]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> destroyed.
+I, [2017-12-04T22:27:35.268606 #14636]  INFO -- default-ubuntu-1604: Finished destroying <default-ubuntu-1604> (0m5.99s).
+I, [2017-12-04T22:27:35.268606 #14636]  INFO -- default-ubuntu-1604: -----> Testing <default-ubuntu-1604>
+I, [2017-12-04T22:27:35.268606 #14636]  INFO -- default-ubuntu-1604: -----> Creating <default-ubuntu-1604>...
+I, [2017-12-04T22:27:36.758087 #14636]  INFO -- default-ubuntu-1604: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2017-12-04T22:27:37.048104 #14636]  INFO -- default-ubuntu-1604: ==> default: Importing base box 'bento/ubuntu-16.04'...
+I, [2017-12-04T22:28:08.247888 #14636]  INFO -- default-ubuntu-1604: [KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 70%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2017-12-04T22:28:08.407898 #14636]  INFO -- default-ubuntu-1604: ==> default: Checking if box 'bento/ubuntu-16.04' is up to date...
+I, [2017-12-04T22:28:10.109995 #14636]  INFO -- default-ubuntu-1604: ==> default: Setting the name of the VM: default-ubuntu-1604_default_1512422890072_64649
+I, [2017-12-04T22:28:12.169113 #14636]  INFO -- default-ubuntu-1604: ==> default: Clearing any previously set network interfaces...
+I, [2017-12-04T22:28:12.280119 #14636]  INFO -- default-ubuntu-1604: ==> default: Preparing network interfaces based on configuration...
+I, [2017-12-04T22:28:12.280119 #14636]  INFO -- default-ubuntu-1604:     default: Adapter 1: nat
+I, [2017-12-04T22:28:12.372124 #14636]  INFO -- default-ubuntu-1604: ==> default: Forwarding ports...
+I, [2017-12-04T22:28:12.422127 #14636]  INFO -- default-ubuntu-1604:     default: 22 (guest) => 2222 (host) (adapter 1)
+I, [2017-12-04T22:28:12.692143 #14636]  INFO -- default-ubuntu-1604: ==> default: Booting VM...
+I, [2017-12-04T22:28:16.076965 #14636]  INFO -- default-ubuntu-1604: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2017-12-04T22:28:16.977579 #14636]  INFO -- default-ubuntu-1604:     default: SSH address: 127.0.0.1:2222
+I, [2017-12-04T22:28:16.977579 #14636]  INFO -- default-ubuntu-1604:     default: SSH username: vagrant
+I, [2017-12-04T22:28:16.977579 #14636]  INFO -- default-ubuntu-1604:     default: SSH auth method: private key
+I, [2017-12-04T22:28:54.023284 #14636]  INFO -- default-ubuntu-1604:     default: Warning: Connection reset. Retrying...
+I, [2017-12-04T22:28:54.124296 #14636]  INFO -- default-ubuntu-1604:     default: Warning: Connection aborted. Retrying...
+I, [2017-12-04T22:28:59.287952 #14636]  INFO -- default-ubuntu-1604:     default: 
+I, [2017-12-04T22:28:59.287952 #14636]  INFO -- default-ubuntu-1604:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2017-12-04T22:28:59.287952 #14636]  INFO -- default-ubuntu-1604:     default: this with a newly generated keypair for better security.
+I, [2017-12-04T22:29:00.340586 #14636]  INFO -- default-ubuntu-1604:     default: 
+I, [2017-12-04T22:29:00.340586 #14636]  INFO -- default-ubuntu-1604:     default: Inserting generated public key within guest...
+I, [2017-12-04T22:29:00.822647 #14636]  INFO -- default-ubuntu-1604:     default: Removing insecure key from the guest if it's present...
+I, [2017-12-04T22:29:01.226698 #14636]  INFO -- default-ubuntu-1604:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2017-12-04T22:29:01.679256 #14636]  INFO -- default-ubuntu-1604: ==> default: Machine booted and ready!
+I, [2017-12-04T22:29:01.679756 #14636]  INFO -- default-ubuntu-1604: ==> default: Checking for guest additions in VM...
+I, [2017-12-04T22:29:01.743264 #14636]  INFO -- default-ubuntu-1604: ==> default: Setting hostname...
+I, [2017-12-04T22:29:02.783896 #14636]  INFO -- default-ubuntu-1604: ==> default: Mounting shared folders...
+I, [2017-12-04T22:29:02.783896 #14636]  INFO -- default-ubuntu-1604:     default: /tmp/omnibus/cache => C:/Users/Vinzenz.Preiss/.kitchen/cache
+I, [2017-12-04T22:29:03.955045 #14636]  INFO -- default-ubuntu-1604: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2017-12-04T22:29:06.826909 #14636]  INFO -- default-ubuntu-1604: [SSH] Established
+I, [2017-12-04T22:29:06.827410 #14636]  INFO -- default-ubuntu-1604: Vagrant instance <default-ubuntu-1604> created.
+I, [2017-12-04T22:29:06.829410 #14636]  INFO -- default-ubuntu-1604: Finished creating <default-ubuntu-1604> (1m31.55s).
+I, [2017-12-04T22:29:06.829910 #14636]  INFO -- default-ubuntu-1604: -----> Converging <default-ubuntu-1604>...
+I, [2017-12-04T22:29:06.831910 #14636]  INFO -- default-ubuntu-1604: Preparing files for transfer
+I, [2017-12-04T22:29:06.832410 #14636]  INFO -- default-ubuntu-1604: Preparing dna.json
+I, [2017-12-04T22:29:06.834410 #14636]  INFO -- default-ubuntu-1604: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2017-12-04T22:29:16.767172 #14636]  INFO -- default-ubuntu-1604: Removing non-cookbook files before transfer
+I, [2017-12-04T22:29:17.241732 #14636]  INFO -- default-ubuntu-1604: Preparing validation.pem
+I, [2017-12-04T22:29:17.244232 #14636]  INFO -- default-ubuntu-1604: Preparing client.rb
+I, [2017-12-04T22:29:17.283737 #14636]  INFO -- default-ubuntu-1604: -----> Installing Chef Omnibus (install only if missing)
+I, [2017-12-04T22:29:17.283737 #14636]  INFO -- default-ubuntu-1604: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2017-12-04T22:29:17.284237 #14636]  INFO -- default-ubuntu-1604: Trying wget...
+I, [2017-12-04T22:29:17.694289 #14636]  INFO -- default-ubuntu-1604: Download complete.
+I, [2017-12-04T22:29:17.704791 #14636]  INFO -- default-ubuntu-1604: ubuntu 16.04 x86_64
+I, [2017-12-04T22:29:17.705291 #14636]  INFO -- default-ubuntu-1604: Getting information for chef stable  for ubuntu...
+I, [2017-12-04T22:29:17.705291 #14636]  INFO -- default-ubuntu-1604: downloading https://omnitruck.chef.io/stable/chef/metadata?v=&p=ubuntu&pv=16.04&m=x86_64
+I, [2017-12-04T22:29:17.705291 #14636]  INFO -- default-ubuntu-1604:   to file /tmp/install.sh.1611/metadata.txt
+I, [2017-12-04T22:29:17.705791 #14636]  INFO -- default-ubuntu-1604: trying wget...
+I, [2017-12-04T22:29:18.475889 #14636]  INFO -- default-ubuntu-1604: sha1	968d6f567dc45ab4cd8d8f94a5e43d781a1d5ba1
+I, [2017-12-04T22:29:18.476389 #14636]  INFO -- default-ubuntu-1604: sha256	c523feb2494b407d71c56261035a58b6897ec6312f917477ef0b3fc4e27c072d
+I, [2017-12-04T22:29:18.476889 #14636]  INFO -- default-ubuntu-1604: url	https://packages.chef.io/files/stable/chef/13.6.4/ubuntu/16.04/chef_13.6.4-1_amd64.deb
+I, [2017-12-04T22:29:18.476889 #14636]  INFO -- default-ubuntu-1604: version	13.6.4
+I, [2017-12-04T22:29:18.487390 #14636]  INFO -- default-ubuntu-1604: downloaded metadata file looks valid...
+I, [2017-12-04T22:29:18.487890 #14636]  INFO -- default-ubuntu-1604: /tmp/omnibus/cache/chef_13.6.4-1_amd64.deb exists
+I, [2017-12-04T22:29:18.487890 #14636]  INFO -- default-ubuntu-1604: Comparing checksum with sha256sum...
+I, [2017-12-04T22:29:19.168477 #14636]  INFO -- default-ubuntu-1604: 
+I, [2017-12-04T22:29:19.168977 #14636]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-12-04T22:29:19.168977 #14636]  INFO -- default-ubuntu-1604: 
+I, [2017-12-04T22:29:19.168977 #14636]  INFO -- default-ubuntu-1604: You are installing an omnibus package without a version pin.  If you are installing
+I, [2017-12-04T22:29:19.168977 #14636]  INFO -- default-ubuntu-1604: on production servers via an automated process this is DANGEROUS and you will
+I, [2017-12-04T22:29:19.168977 #14636]  INFO -- default-ubuntu-1604: be upgraded without warning on new releases, even to new major releases.
+I, [2017-12-04T22:29:19.168977 #14636]  INFO -- default-ubuntu-1604: Letting the version float is only appropriate in desktop, test, development or
+I, [2017-12-04T22:29:19.168977 #14636]  INFO -- default-ubuntu-1604: CI/CD environments.
+I, [2017-12-04T22:29:19.168977 #14636]  INFO -- default-ubuntu-1604: 
+I, [2017-12-04T22:29:19.169477 #14636]  INFO -- default-ubuntu-1604: WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING WARNING
+I, [2017-12-04T22:29:19.169477 #14636]  INFO -- default-ubuntu-1604: 
+I, [2017-12-04T22:29:19.169477 #14636]  INFO -- default-ubuntu-1604: Installing chef 
+I, [2017-12-04T22:29:19.169477 #14636]  INFO -- default-ubuntu-1604: installing with dpkg...
+I, [2017-12-04T22:29:19.449512 #14636]  INFO -- default-ubuntu-1604: Selecting previously unselected package chef.
+I, [2017-12-04T22:29:20.931701 #14636]  INFO -- default-ubuntu-1604: (Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 35843 files and directories currently installed.)
+I, [2017-12-04T22:29:20.931701 #14636]  INFO -- default-ubuntu-1604: Preparing to unpack .../cache/chef_13.6.4-1_amd64.deb ...
+I, [2017-12-04T22:29:20.962204 #14636]  INFO -- default-ubuntu-1604: Unpacking chef (13.6.4-1) ...
+I, [2017-12-04T22:29:34.596436 #14636]  INFO -- default-ubuntu-1604: Setting up chef (13.6.4-1) ...
+I, [2017-12-04T22:29:34.708450 #14636]  INFO -- default-ubuntu-1604: Thank you for installing Chef!
+I, [2017-12-04T22:29:34.822965 #14636]  INFO -- default-ubuntu-1604: Transferring files to <default-ubuntu-1604>
+I, [2017-12-04T22:29:44.678716 #14636]  INFO -- default-ubuntu-1604: Starting Chef Client, version 13.6.4
+I, [2017-12-04T22:29:47.524077 #14636]  INFO -- default-ubuntu-1604: Creating a new client identity for default-ubuntu-1604 using the validator key.
+I, [2017-12-04T22:29:47.845118 #14636]  INFO -- default-ubuntu-1604: resolving cookbooks for run list: ["assignment-group3::default"]
+I, [2017-12-04T22:29:48.275673 #14636]  INFO -- default-ubuntu-1604: Synchronizing Cookbooks:
+I, [2017-12-04T22:29:48.321679 #14636]  INFO -- default-ubuntu-1604:   - assignment-group3 (0.1.0)
+I, [2017-12-04T22:29:48.332680 #14636]  INFO -- default-ubuntu-1604:   - openssh (2.6.1)
+I, [2017-12-04T22:29:48.333180 #14636]  INFO -- default-ubuntu-1604:   - sudo (4.0.0)
+I, [2017-12-04T22:29:48.474198 #14636]  INFO -- default-ubuntu-1604:   - build-essential (8.0.4)
+I, [2017-12-04T22:29:48.484699 #14636]  INFO -- default-ubuntu-1604:   - nginx (7.0.2)
+I, [2017-12-04T22:29:48.484699 #14636]  INFO -- default-ubuntu-1604:   - ohai (5.2.0)
+I, [2017-12-04T22:29:48.495201 #14636]  INFO -- default-ubuntu-1604:   - iptables (4.3.1)
+I, [2017-12-04T22:29:48.495701 #14636]  INFO -- default-ubuntu-1604:   - yum-epel (2.1.2)
+I, [2017-12-04T22:29:48.557209 #14636]  INFO -- default-ubuntu-1604:   - compat_resource (12.19.0)
+I, [2017-12-04T22:29:48.578211 #14636]  INFO -- default-ubuntu-1604:   - zypper (0.4.0)
+I, [2017-12-04T22:29:48.599214 #14636]  INFO -- default-ubuntu-1604:   - seven_zip (2.0.2)
+I, [2017-12-04T22:29:48.599714 #14636]  INFO -- default-ubuntu-1604:   - mingw (2.0.1)
+I, [2017-12-04T22:29:48.600714 #14636]  INFO -- default-ubuntu-1604:   - windows (3.4.0)
+I, [2017-12-04T22:29:48.601214 #14636]  INFO -- default-ubuntu-1604: Installing Cookbook Gems:
+I, [2017-12-04T22:29:48.672223 #14636]  INFO -- default-ubuntu-1604: Compiling Cookbooks...
+I, [2017-12-04T22:29:48.802740 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::ohai_plugin
+I, [2017-12-04T22:29:48.813741 #14636]  INFO -- default-ubuntu-1604:   * ohai_plugin[nginx] action create[2017-12-04T21:29:47+00:00] WARN: The Ohai plugin_path does not include /tmp/kitchen/ohai/plugins. Ohai will reload on each chef-client run in order to add this directory to the path unless you modify your client.rb configuration to add this directory to plugin_path. The plugin_path can be set via the chef-client::config recipe. See 'Ohai Settings' at https://docs.chef.io/config_rb_client.html#ohai-settings for more details.
+I, [2017-12-04T22:29:48.814241 #14636]  INFO -- default-ubuntu-1604: [2017-12-04T21:29:47+00:00] WARN: The Ohai plugin_path does not include /tmp/kitchen/ohai/plugins. Ohai will reload on each chef-client run in order to add this directory to the path unless you modify your client.rb configuration to add this directory to plugin_path. The plugin_path can be set via the chef-client::config recipe. See 'Ohai Settings' at https://docs.chef.io/config_rb_client.html#ohai-settings for more details.
+I, [2017-12-04T22:29:48.814241 #14636]  INFO -- default-ubuntu-1604: [2017-12-04T21:29:47+00:00] WARN: Adding /tmp/kitchen/ohai/plugins to the Ohai plugin path for this chef-client run only
+I, [2017-12-04T22:29:48.814741 #14636]  INFO -- default-ubuntu-1604: [2017-12-04T21:29:47+00:00] WARN: Adding /tmp/kitchen/ohai/plugins to the Ohai plugin path for this chef-client run only
+I, [2017-12-04T22:29:48.814741 #14636]  INFO -- default-ubuntu-1604: 
+I, [2017-12-04T22:29:48.815241 #14636]  INFO -- default-ubuntu-1604:     * directory[/tmp/kitchen/ohai/plugins] action create
+I, [2017-12-04T22:29:48.815741 #14636]  INFO -- default-ubuntu-1604:       - create new directory /tmp/kitchen/ohai/plugins
+I, [2017-12-04T22:29:48.826243 #14636]  INFO -- default-ubuntu-1604:     * template[/tmp/kitchen/ohai/plugins/nginx.rb] action create
+I, [2017-12-04T22:29:48.826743 #14636]  INFO -- default-ubuntu-1604:       - create new file /tmp/kitchen/ohai/plugins/nginx.rb
+I, [2017-12-04T22:29:48.827243 #14636]  INFO -- default-ubuntu-1604:       - update content in file /tmp/kitchen/ohai/plugins/nginx.rb from none to 769636
+I, [2017-12-04T22:29:48.827743 #14636]  INFO -- default-ubuntu-1604:       --- /tmp/kitchen/ohai/plugins/nginx.rb	2017-12-04 21:29:47.677831739 +0000
+I, [2017-12-04T22:29:48.828743 #14636]  INFO -- default-ubuntu-1604:       +++ /tmp/kitchen/ohai/plugins/.chef-nginx20171204-1698-15l5uoh.rb	2017-12-04 21:29:47.677831739 +0000
+I, [2017-12-04T22:29:48.828743 #14636]  INFO -- default-ubuntu-1604:       @@ -1 +1,83 @@
+I, [2017-12-04T22:29:48.829243 #14636]  INFO -- default-ubuntu-1604:       +#
+I, [2017-12-04T22:29:48.829743 #14636]  INFO -- default-ubuntu-1604:       +# Author:: Jamie Winsor (<jamie@vialstudios.com>)
+I, [2017-12-04T22:29:48.830243 #14636]  INFO -- default-ubuntu-1604:       +#
+I, [2017-12-04T22:29:48.830743 #14636]  INFO -- default-ubuntu-1604:       +# Copyright 2012, Riot Games
+I, [2017-12-04T22:29:48.831743 #14636]  INFO -- default-ubuntu-1604:       +#
+I, [2017-12-04T22:29:48.832243 #14636]  INFO -- default-ubuntu-1604:       +# Licensed under the Apache License, Version 2.0 (the "License");
+I, [2017-12-04T22:29:48.832744 #14636]  INFO -- default-ubuntu-1604:       +# you may not use this file except in compliance with the License.
+I, [2017-12-04T22:29:48.833244 #14636]  INFO -- default-ubuntu-1604:       +# You may obtain a copy of the License at
+I, [2017-12-04T22:29:48.836744 #14636]  INFO -- default-ubuntu-1604:       +#
+I, [2017-12-04T22:29:48.836744 #14636]  INFO -- default-ubuntu-1604:       +#     http://www.apache.org/licenses/LICENSE-2.0
+I, [2017-12-04T22:29:48.837244 #14636]  INFO -- default-ubuntu-1604:       +#
+I, [2017-12-04T22:29:48.837744 #14636]  INFO -- default-ubuntu-1604:       +# Unless required by applicable law or agreed to in writing, software
+I, [2017-12-04T22:29:48.838244 #14636]  INFO -- default-ubuntu-1604:       +# distributed under the License is distributed on an "AS IS" BASIS,
+I, [2017-12-04T22:29:48.838244 #14636]  INFO -- default-ubuntu-1604:       +# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+I, [2017-12-04T22:29:48.838744 #14636]  INFO -- default-ubuntu-1604:       +# See the License for the specific language governing permissions and
+I, [2017-12-04T22:29:48.839744 #14636]  INFO -- default-ubuntu-1604:       +# limitations under the License.
+I, [2017-12-04T22:29:48.841745 #14636]  INFO -- default-ubuntu-1604:       +#
+I, [2017-12-04T22:29:48.842245 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:48.842745 #14636]  INFO -- default-ubuntu-1604:       +Ohai.plugin(:Nginx) do
+I, [2017-12-04T22:29:48.842745 #14636]  INFO -- default-ubuntu-1604:       +  provides "nginx"
+I, [2017-12-04T22:29:48.843245 #14636]  INFO -- default-ubuntu-1604:       +  provides "nginx/version"
+I, [2017-12-04T22:29:48.843745 #14636]  INFO -- default-ubuntu-1604:       +  provides "nginx/configure_arguments"
+I, [2017-12-04T22:29:48.843745 #14636]  INFO -- default-ubuntu-1604:       +  provides "nginx/prefix"
+I, [2017-12-04T22:29:48.844245 #14636]  INFO -- default-ubuntu-1604:       +  provides "nginx/conf_path"
+I, [2017-12-04T22:29:48.844745 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:48.845245 #14636]  INFO -- default-ubuntu-1604:       +  def parse_flags(flags)
+I, [2017-12-04T22:29:48.845245 #14636]  INFO -- default-ubuntu-1604:       +    prefix = nil
+I, [2017-12-04T22:29:48.845745 #14636]  INFO -- default-ubuntu-1604:       +    conf_path = nil
+I, [2017-12-04T22:29:48.846245 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:48.846245 #14636]  INFO -- default-ubuntu-1604:       +    flags.each do |flag|
+I, [2017-12-04T22:29:48.846745 #14636]  INFO -- default-ubuntu-1604:       +      case flag
+I, [2017-12-04T22:29:48.847245 #14636]  INFO -- default-ubuntu-1604:       +      when /^--prefix=(.+)$/
+I, [2017-12-04T22:29:48.847745 #14636]  INFO -- default-ubuntu-1604:       +        prefix = Regexp.last_match(1)
+I, [2017-12-04T22:29:48.848246 #14636]  INFO -- default-ubuntu-1604:       +      when /^--conf-path=(.+)$/
+I, [2017-12-04T22:29:48.848246 #14636]  INFO -- default-ubuntu-1604:       +        conf_path = Regexp.last_match(1)
+I, [2017-12-04T22:29:48.848746 #14636]  INFO -- default-ubuntu-1604:       +      end
+I, [2017-12-04T22:29:48.849246 #14636]  INFO -- default-ubuntu-1604:       +    end
+I, [2017-12-04T22:29:48.849746 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:48.849746 #14636]  INFO -- default-ubuntu-1604:       +    [prefix, conf_path]
+I, [2017-12-04T22:29:48.850246 #14636]  INFO -- default-ubuntu-1604:       +  end
+I, [2017-12-04T22:29:48.850746 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:48.850746 #14636]  INFO -- default-ubuntu-1604:       +  collect_data do
+I, [2017-12-04T22:29:48.851246 #14636]  INFO -- default-ubuntu-1604:       +    nginx Mash.new unless nginx
+I, [2017-12-04T22:29:48.851246 #14636]  INFO -- default-ubuntu-1604:       +    # if we fail we should still have these values to avoid nil class errors
+I, [2017-12-04T22:29:48.851246 #14636]  INFO -- default-ubuntu-1604:       +    # if people try to use them
+I, [2017-12-04T22:29:48.851746 #14636]  INFO -- default-ubuntu-1604:       +    nginx[:version]             = nil unless nginx[:version]
+I, [2017-12-04T22:29:48.851746 #14636]  INFO -- default-ubuntu-1604:       +    nginx[:configure_arguments] = [] unless nginx[:configure_arguments]
+I, [2017-12-04T22:29:48.851746 #14636]  INFO -- default-ubuntu-1604:       +    nginx[:prefix]              = nil unless nginx[:prefix]
+I, [2017-12-04T22:29:48.851746 #14636]  INFO -- default-ubuntu-1604:       +    nginx[:conf_path]           = nil unless nginx[:conf_path]
+I, [2017-12-04T22:29:48.852246 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:48.852246 #14636]  INFO -- default-ubuntu-1604:       +    begin
+I, [2017-12-04T22:29:48.852246 #14636]  INFO -- default-ubuntu-1604:       +      so = shell_out("/usr/sbin/nginx -V")
+I, [2017-12-04T22:29:48.852246 #14636]  INFO -- default-ubuntu-1604:       +      # Sample output:
+I, [2017-12-04T22:29:48.852746 #14636]  INFO -- default-ubuntu-1604:       +      # nginx version: nginx/1.10.1
+I, [2017-12-04T22:29:48.852746 #14636]  INFO -- default-ubuntu-1604:       +      # built by clang 7.3.0 (clang-703.0.31)
+I, [2017-12-04T22:29:48.852746 #14636]  INFO -- default-ubuntu-1604:       +      # built with OpenSSL 1.0.2h  3 May 2016
+I, [2017-12-04T22:29:48.853246 #14636]  INFO -- default-ubuntu-1604:       +      # TLS SNI support enabled
+I, [2017-12-04T22:29:48.853246 #14636]  INFO -- default-ubuntu-1604:       +      # configure arguments: --prefix=/usr/local/Cellar/nginx/1.10.1 --with-http_ssl_module --with-pcre --with-ipv6 --sbin-path=/usr/local/Cellar/nginx/1.10.1/bin/nginx --with-cc-opt='-I/usr/local/Cellar/pcre/8.38/include -I/usr/local/Cellar/openssl/1.0.2h_1/include' --with-ld-opt='-L/usr/local/Cellar/pcre/8.38/lib -L/usr/local/Cellar/openssl/1.0.2h_1/lib' --conf-path=/usr/local/etc/nginx/nginx.conf --pid-path=/usr/local/var/run/nginx.pid --lock-path=/usr/local/var/run/nginx.lock --http-client-body-temp-path=/usr/local/var/run/nginx/client_body_temp --http-proxy-temp-path=/usr/local/var/run/nginx/proxy_temp --http-fastcgi-temp-path=/usr/local/var/run/nginx/fastcgi_temp --http-uwsgi-temp-path=/usr/local/var/run/nginx/uwsgi_temp --http-scgi-temp-path=/usr/local/var/run/nginx/scgi_temp --http-log-path=/usr/local/var/log/nginx/access.log --error-log-path=/usr/local/var/log/nginx/error.log --with-http_gzip_static_module
+I, [2017-12-04T22:29:48.853746 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:48.854246 #14636]  INFO -- default-ubuntu-1604:       +      if so.exitstatus == 0
+I, [2017-12-04T22:29:48.854246 #14636]  INFO -- default-ubuntu-1604:       +        so.stderr.split("\n").each do |line|
+I, [2017-12-04T22:29:48.854746 #14636]  INFO -- default-ubuntu-1604:       +          case line
+I, [2017-12-04T22:29:48.854746 #14636]  INFO -- default-ubuntu-1604:       +          when /^configure arguments:(.+)/
+I, [2017-12-04T22:29:48.855246 #14636]  INFO -- default-ubuntu-1604:       +            # This could be better: I'm splitting on configure arguments which removes them and also
+I, [2017-12-04T22:29:48.855246 #14636]  INFO -- default-ubuntu-1604:       +            # adds a blank string at index 0 of the array. This is why we drop index 0 and map to
+I, [2017-12-04T22:29:48.855746 #14636]  INFO -- default-ubuntu-1604:       +            # add the '--' prefix back to the configure argument.
+I, [2017-12-04T22:29:48.856247 #14636]  INFO -- default-ubuntu-1604:       +            nginx[:configure_arguments] = Regexp.last_match(1).split(/\s--(?!param)/).drop(1).map { |ca| "--#{ca}" }
+I, [2017-12-04T22:29:48.857247 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:48.857747 #14636]  INFO -- default-ubuntu-1604:       +            prefix, conf_path = parse_flags(nginx[:configure_arguments])
+I, [2017-12-04T22:29:48.857747 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:48.858247 #14636]  INFO -- default-ubuntu-1604:       +            nginx[:prefix] = prefix
+I, [2017-12-04T22:29:48.858747 #14636]  INFO -- default-ubuntu-1604:       +            nginx[:conf_path] = conf_path
+I, [2017-12-04T22:29:48.859247 #14636]  INFO -- default-ubuntu-1604:       +          when /^nginx version: nginx\/(\d+\.\d+\.\d+)/
+I, [2017-12-04T22:29:48.859247 #14636]  INFO -- default-ubuntu-1604:       +            nginx[:version] = Regexp.last_match(1)
+I, [2017-12-04T22:29:48.859747 #14636]  INFO -- default-ubuntu-1604:       +          end
+I, [2017-12-04T22:29:48.860247 #14636]  INFO -- default-ubuntu-1604:       +        end
+I, [2017-12-04T22:29:48.860247 #14636]  INFO -- default-ubuntu-1604:       +      end
+I, [2017-12-04T22:29:48.860247 #14636]  INFO -- default-ubuntu-1604:       +    rescue
+I, [2017-12-04T22:29:48.860247 #14636]  INFO -- default-ubuntu-1604:       +      Ohai::Log.debug('Nginx plugin: Could not shell_out "/usr/sbin/nginx -V"')
+I, [2017-12-04T22:29:48.860747 #14636]  INFO -- default-ubuntu-1604:       +    end
+I, [2017-12-04T22:29:48.860747 #14636]  INFO -- default-ubuntu-1604:       +  end
+I, [2017-12-04T22:29:48.860747 #14636]  INFO -- default-ubuntu-1604:       +end
+I, [2017-12-04T22:29:50.071401 #14636]  INFO -- default-ubuntu-1604:     * ohai[nginx] action reload
+I, [2017-12-04T22:29:50.071901 #14636]  INFO -- default-ubuntu-1604:       - re-run ohai and merge results into node attributes
+I, [2017-12-04T22:29:51.233048 #14636]  INFO -- default-ubuntu-1604:     * ohai[nginx] action reload
+I, [2017-12-04T22:29:51.233548 #14636]  INFO -- default-ubuntu-1604:       - re-run ohai and merge results into node attributes
+I, [2017-12-04T22:29:51.233548 #14636]  INFO -- default-ubuntu-1604:   
+I, [2017-12-04T22:29:51.243550 #14636]  INFO -- default-ubuntu-1604:   Converging 37 resources
+I, [2017-12-04T22:29:51.244050 #14636]  INFO -- default-ubuntu-1604: Recipe: openssh::default
+I, [2017-12-04T22:29:51.706608 #14636]  INFO -- default-ubuntu-1604:   * apt_package[openssh-client, openssh-server] action install (up to date)
+I, [2017-12-04T22:29:51.877630 #14636]  INFO -- default-ubuntu-1604:   * template[/etc/ssh/ssh_config] action create
+I, [2017-12-04T22:29:51.878630 #14636]  INFO -- default-ubuntu-1604:     - update content in file /etc/ssh/ssh_config from 821211 to 3e92fd
+I, [2017-12-04T22:29:51.879130 #14636]  INFO -- default-ubuntu-1604:     --- /etc/ssh/ssh_config	2017-03-16 14:04:36.000000000 +0000
+I, [2017-12-04T22:29:51.880131 #14636]  INFO -- default-ubuntu-1604:     +++ /etc/ssh/.chef-ssh_config20171204-1698-11u4qzt	2017-12-04 21:29:50.731357740 +0000
+I, [2017-12-04T22:29:51.881131 #14636]  INFO -- default-ubuntu-1604:     @@ -1,57 +1,7 @@
+I, [2017-12-04T22:29:51.881631 #14636]  INFO -- default-ubuntu-1604:     +# This file was generated by Chef
+I, [2017-12-04T22:29:51.882631 #14636]  INFO -- default-ubuntu-1604:     +# Do NOT modify this file by hand!
+I, [2017-12-04T22:29:51.883131 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:51.884131 #14636]  INFO -- default-ubuntu-1604:     -# This is the ssh client system-wide configuration file.  See
+I, [2017-12-04T22:29:51.886131 #14636]  INFO -- default-ubuntu-1604:     -# ssh_config(5) for more information.  This file provides defaults for
+I, [2017-12-04T22:29:51.886631 #14636]  INFO -- default-ubuntu-1604:     -# users, and the values can be changed in per-user configuration files
+I, [2017-12-04T22:29:51.887131 #14636]  INFO -- default-ubuntu-1604:     -# or on the command line.
+I, [2017-12-04T22:29:51.887131 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.887131 #14636]  INFO -- default-ubuntu-1604:     -# Configuration data is parsed as follows:
+I, [2017-12-04T22:29:51.887131 #14636]  INFO -- default-ubuntu-1604:     -#  1. command line options
+I, [2017-12-04T22:29:51.887631 #14636]  INFO -- default-ubuntu-1604:     -#  2. user-specific file
+I, [2017-12-04T22:29:51.887631 #14636]  INFO -- default-ubuntu-1604:     -#  3. system-wide file
+I, [2017-12-04T22:29:51.887631 #14636]  INFO -- default-ubuntu-1604:     -# Any configuration value is only changed the first time it is set.
+I, [2017-12-04T22:29:51.888132 #14636]  INFO -- default-ubuntu-1604:     -# Thus, host-specific definitions should be at the beginning of the
+I, [2017-12-04T22:29:51.888132 #14636]  INFO -- default-ubuntu-1604:     -# configuration file, and defaults at the end.
+I, [2017-12-04T22:29:51.889632 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.891132 #14636]  INFO -- default-ubuntu-1604:     -# Site-wide defaults for some commonly used options.  For a comprehensive
+I, [2017-12-04T22:29:51.891632 #14636]  INFO -- default-ubuntu-1604:     -# list of available options, their meanings and defaults, please see the
+I, [2017-12-04T22:29:51.892632 #14636]  INFO -- default-ubuntu-1604:     -# ssh_config(5) man page.
+I, [2017-12-04T22:29:51.893132 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.894132 #14636]  INFO -- default-ubuntu-1604:      Host *
+I, [2017-12-04T22:29:51.895632 #14636]  INFO -- default-ubuntu-1604:     -#   ForwardAgent no
+I, [2017-12-04T22:29:51.896133 #14636]  INFO -- default-ubuntu-1604:     -#   ForwardX11 no
+I, [2017-12-04T22:29:51.896133 #14636]  INFO -- default-ubuntu-1604:     -#   ForwardX11Trusted yes
+I, [2017-12-04T22:29:51.896633 #14636]  INFO -- default-ubuntu-1604:     -#   RhostsRSAAuthentication no
+I, [2017-12-04T22:29:51.896633 #14636]  INFO -- default-ubuntu-1604:     -#   RSAAuthentication yes
+I, [2017-12-04T22:29:51.897133 #14636]  INFO -- default-ubuntu-1604:     -#   PasswordAuthentication yes
+I, [2017-12-04T22:29:51.897133 #14636]  INFO -- default-ubuntu-1604:     -#   HostbasedAuthentication no
+I, [2017-12-04T22:29:51.897633 #14636]  INFO -- default-ubuntu-1604:     -#   GSSAPIAuthentication no
+I, [2017-12-04T22:29:51.898133 #14636]  INFO -- default-ubuntu-1604:     -#   GSSAPIDelegateCredentials no
+I, [2017-12-04T22:29:51.898633 #14636]  INFO -- default-ubuntu-1604:     -#   GSSAPIKeyExchange no
+I, [2017-12-04T22:29:51.898633 #14636]  INFO -- default-ubuntu-1604:     -#   GSSAPITrustDNS no
+I, [2017-12-04T22:29:51.898633 #14636]  INFO -- default-ubuntu-1604:     -#   BatchMode no
+I, [2017-12-04T22:29:51.899133 #14636]  INFO -- default-ubuntu-1604:     -#   CheckHostIP yes
+I, [2017-12-04T22:29:51.899633 #14636]  INFO -- default-ubuntu-1604:     -#   AddressFamily any
+I, [2017-12-04T22:29:51.899633 #14636]  INFO -- default-ubuntu-1604:     -#   ConnectTimeout 0
+I, [2017-12-04T22:29:51.899633 #14636]  INFO -- default-ubuntu-1604:     -#   StrictHostKeyChecking ask
+I, [2017-12-04T22:29:51.900133 #14636]  INFO -- default-ubuntu-1604:     -#   IdentityFile ~/.ssh/identity
+I, [2017-12-04T22:29:51.900133 #14636]  INFO -- default-ubuntu-1604:     -#   IdentityFile ~/.ssh/id_rsa
+I, [2017-12-04T22:29:51.915635 #14636]  INFO -- default-ubuntu-1604:     -#   IdentityFile ~/.ssh/id_dsa
+I, [2017-12-04T22:29:51.916135 #14636]  INFO -- default-ubuntu-1604:     -#   IdentityFile ~/.ssh/id_ecdsa
+I, [2017-12-04T22:29:51.917135 #14636]  INFO -- default-ubuntu-1604:     -#   IdentityFile ~/.ssh/id_ed25519
+I, [2017-12-04T22:29:51.918135 #14636]  INFO -- default-ubuntu-1604:     -#   Port 22
+I, [2017-12-04T22:29:51.918635 #14636]  INFO -- default-ubuntu-1604:     -#   Protocol 2
+I, [2017-12-04T22:29:51.919135 #14636]  INFO -- default-ubuntu-1604:     -#   Cipher 3des
+I, [2017-12-04T22:29:51.919135 #14636]  INFO -- default-ubuntu-1604:     -#   Ciphers aes128-ctr,aes192-ctr,aes256-ctr,arcfour256,arcfour128,aes128-cbc,3des-cbc
+I, [2017-12-04T22:29:51.919135 #14636]  INFO -- default-ubuntu-1604:     -#   MACs hmac-md5,hmac-sha1,umac-64@openssh.com,hmac-ripemd160
+I, [2017-12-04T22:29:51.919135 #14636]  INFO -- default-ubuntu-1604:     -#   EscapeChar ~
+I, [2017-12-04T22:29:51.919636 #14636]  INFO -- default-ubuntu-1604:     -#   Tunnel no
+I, [2017-12-04T22:29:51.920136 #14636]  INFO -- default-ubuntu-1604:     -#   TunnelDevice any:any
+I, [2017-12-04T22:29:51.920136 #14636]  INFO -- default-ubuntu-1604:     -#   PermitLocalCommand no
+I, [2017-12-04T22:29:51.920136 #14636]  INFO -- default-ubuntu-1604:     -#   VisualHostKey no
+I, [2017-12-04T22:29:51.920136 #14636]  INFO -- default-ubuntu-1604:     -#   ProxyCommand ssh -q -W %h:%p gateway.example.com
+I, [2017-12-04T22:29:51.920136 #14636]  INFO -- default-ubuntu-1604:     -#   RekeyLimit 1G 1h
+I, [2017-12-04T22:29:51.920136 #14636]  INFO -- default-ubuntu-1604:     -    SendEnv LANG LC_*
+I, [2017-12-04T22:29:51.924136 #14636]  INFO -- default-ubuntu-1604:     -    HashKnownHosts yes
+I, [2017-12-04T22:29:51.925136 #14636]  INFO -- default-ubuntu-1604:     -    GSSAPIAuthentication yes
+I, [2017-12-04T22:29:51.925636 #14636]  INFO -- default-ubuntu-1604:     -    GSSAPIDelegateCredentials no
+I, [2017-12-04T22:29:51.926136 #14636]  INFO -- default-ubuntu-1604:     +UseRoaming no
+I, [2017-12-04T22:29:51.926636 #14636]  INFO -- default-ubuntu-1604:     +Protocol 2
+I, [2017-12-04T22:29:51.928137 #14636]  INFO -- default-ubuntu-1604:   * template[sshd_ca_keys_file] action create
+I, [2017-12-04T22:29:51.928137 #14636]  INFO -- default-ubuntu-1604:     - create new file /etc/ssh/ca_keys
+I, [2017-12-04T22:29:51.928637 #14636]  INFO -- default-ubuntu-1604:     - update content in file /etc/ssh/ca_keys from none to 64ca5b
+I, [2017-12-04T22:29:51.929137 #14636]  INFO -- default-ubuntu-1604:     --- /etc/ssh/ca_keys	2017-12-04 21:29:50.743363740 +0000
+I, [2017-12-04T22:29:51.929637 #14636]  INFO -- default-ubuntu-1604:     +++ /etc/ssh/.chef-ca_keys20171204-1698-17geu6	2017-12-04 21:29:50.743363740 +0000
+I, [2017-12-04T22:29:51.930137 #14636]  INFO -- default-ubuntu-1604:     @@ -1 +1,5 @@
+I, [2017-12-04T22:29:51.931137 #14636]  INFO -- default-ubuntu-1604:     +# This file was generated by Chef
+I, [2017-12-04T22:29:51.932137 #14636]  INFO -- default-ubuntu-1604:     +# Do NOT modify this file by hand!
+I, [2017-12-04T22:29:51.932637 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:29:51.933137 #14636]  INFO -- default-ubuntu-1604:     +# One CA public key per line
+I, [2017-12-04T22:29:51.933637 #14636]  INFO -- default-ubuntu-1604:     - change mode from '' to '0644'
+I, [2017-12-04T22:29:51.934137 #14636]  INFO -- default-ubuntu-1604:     - change owner from '' to 'root'
+I, [2017-12-04T22:29:51.934637 #14636]  INFO -- default-ubuntu-1604:     - change group from '' to 'root'
+I, [2017-12-04T22:29:51.935138 #14636]  INFO -- default-ubuntu-1604:   * template[sshd_revoked_keys_file] action create
+I, [2017-12-04T22:29:51.935638 #14636]  INFO -- default-ubuntu-1604:     - create new file /etc/ssh/revoked_keys
+I, [2017-12-04T22:29:51.936138 #14636]  INFO -- default-ubuntu-1604:     - update content in file /etc/ssh/revoked_keys from none to dbc301
+I, [2017-12-04T22:29:51.937138 #14636]  INFO -- default-ubuntu-1604:     --- /etc/ssh/revoked_keys	2017-12-04 21:29:50.755369739 +0000
+I, [2017-12-04T22:29:51.937638 #14636]  INFO -- default-ubuntu-1604:     +++ /etc/ssh/.chef-revoked_keys20171204-1698-7df50f	2017-12-04 21:29:50.755369739 +0000
+I, [2017-12-04T22:29:51.938138 #14636]  INFO -- default-ubuntu-1604:     @@ -1 +1,5 @@
+I, [2017-12-04T22:29:51.938138 #14636]  INFO -- default-ubuntu-1604:     +# This file was generated by Chef
+I, [2017-12-04T22:29:51.939638 #14636]  INFO -- default-ubuntu-1604:     +# Do NOT modify this file by hand!
+I, [2017-12-04T22:29:51.939638 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:29:51.940138 #14636]  INFO -- default-ubuntu-1604:     +# One certificate/public key per line
+I, [2017-12-04T22:29:51.940638 #14636]  INFO -- default-ubuntu-1604:     - change mode from '' to '0644'
+I, [2017-12-04T22:29:51.941138 #14636]  INFO -- default-ubuntu-1604:     - change owner from '' to 'root'
+I, [2017-12-04T22:29:51.941138 #14636]  INFO -- default-ubuntu-1604:     - change group from '' to 'root'
+I, [2017-12-04T22:29:51.941638 #14636]  INFO -- default-ubuntu-1604:   * template[/etc/ssh/sshd_config] action create
+I, [2017-12-04T22:29:51.942138 #14636]  INFO -- default-ubuntu-1604:     - update content in file /etc/ssh/sshd_config from 7eedb9 to 258226
+I, [2017-12-04T22:29:51.942638 #14636]  INFO -- default-ubuntu-1604:     --- /etc/ssh/sshd_config	2017-10-27 20:39:14.569104635 +0000
+I, [2017-12-04T22:29:51.943139 #14636]  INFO -- default-ubuntu-1604:     +++ /etc/ssh/.chef-sshd_config20171204-1698-1ukmuhy	2017-12-04 21:29:50.767375739 +0000
+I, [2017-12-04T22:29:51.943139 #14636]  INFO -- default-ubuntu-1604:     @@ -1,91 +1,16 @@
+I, [2017-12-04T22:29:51.943639 #14636]  INFO -- default-ubuntu-1604:     -# Package generated configuration file
+I, [2017-12-04T22:29:51.943639 #14636]  INFO -- default-ubuntu-1604:     -# See the sshd_config(5) manpage for details
+I, [2017-12-04T22:29:51.944139 #14636]  INFO -- default-ubuntu-1604:     +# This file was generated by Chef
+I, [2017-12-04T22:29:51.944139 #14636]  INFO -- default-ubuntu-1604:     +# Do NOT modify this file by hand!
+I, [2017-12-04T22:29:51.944639 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:51.944639 #14636]  INFO -- default-ubuntu-1604:     -# What ports, IPs and protocols we listen for
+I, [2017-12-04T22:29:51.945139 #14636]  INFO -- default-ubuntu-1604:     -Port 22
+I, [2017-12-04T22:29:51.945639 #14636]  INFO -- default-ubuntu-1604:     -# Use these options to restrict which interfaces/protocols sshd will bind to
+I, [2017-12-04T22:29:51.946139 #14636]  INFO -- default-ubuntu-1604:     -#ListenAddress ::
+I, [2017-12-04T22:29:51.946639 #14636]  INFO -- default-ubuntu-1604:     -#ListenAddress 0.0.0.0
+I, [2017-12-04T22:29:51.947139 #14636]  INFO -- default-ubuntu-1604:     -Protocol 2
+I, [2017-12-04T22:29:51.947139 #14636]  INFO -- default-ubuntu-1604:     -# HostKeys for protocol version 2
+I, [2017-12-04T22:29:51.947639 #14636]  INFO -- default-ubuntu-1604:     +ChallengeResponseAuthentication no
+I, [2017-12-04T22:29:51.947639 #14636]  INFO -- default-ubuntu-1604:      HostKey /etc/ssh/ssh_host_rsa_key
+I, [2017-12-04T22:29:51.948139 #14636]  INFO -- default-ubuntu-1604:     -HostKey /etc/ssh/ssh_host_dsa_key
+I, [2017-12-04T22:29:51.948139 #14636]  INFO -- default-ubuntu-1604:      HostKey /etc/ssh/ssh_host_ecdsa_key
+I, [2017-12-04T22:29:51.948639 #14636]  INFO -- default-ubuntu-1604:      HostKey /etc/ssh/ssh_host_ed25519_key
+I, [2017-12-04T22:29:51.948639 #14636]  INFO -- default-ubuntu-1604:     -#Privilege Separation is turned on for security
+I, [2017-12-04T22:29:51.949139 #14636]  INFO -- default-ubuntu-1604:     -UsePrivilegeSeparation yes
+I, [2017-12-04T22:29:51.949139 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.950139 #14636]  INFO -- default-ubuntu-1604:     -# Lifetime and size of ephemeral version 1 server key
+I, [2017-12-04T22:29:51.950639 #14636]  INFO -- default-ubuntu-1604:     -KeyRegenerationInterval 3600
+I, [2017-12-04T22:29:51.951140 #14636]  INFO -- default-ubuntu-1604:     -ServerKeyBits 1024
+I, [2017-12-04T22:29:51.951640 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.952640 #14636]  INFO -- default-ubuntu-1604:     -# Logging
+I, [2017-12-04T22:29:51.953140 #14636]  INFO -- default-ubuntu-1604:     -SyslogFacility AUTH
+I, [2017-12-04T22:29:51.953640 #14636]  INFO -- default-ubuntu-1604:     -LogLevel INFO
+I, [2017-12-04T22:29:51.954140 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.954640 #14636]  INFO -- default-ubuntu-1604:     -# Authentication:
+I, [2017-12-04T22:29:51.959141 #14636]  INFO -- default-ubuntu-1604:     -LoginGraceTime 120
+I, [2017-12-04T22:29:51.960641 #14636]  INFO -- default-ubuntu-1604:     -PermitRootLogin prohibit-password
+I, [2017-12-04T22:29:51.962141 #14636]  INFO -- default-ubuntu-1604:     -StrictModes yes
+I, [2017-12-04T22:29:51.963141 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.963641 #14636]  INFO -- default-ubuntu-1604:     -RSAAuthentication yes
+I, [2017-12-04T22:29:51.964141 #14636]  INFO -- default-ubuntu-1604:     -PubkeyAuthentication yes
+I, [2017-12-04T22:29:51.964641 #14636]  INFO -- default-ubuntu-1604:     -#AuthorizedKeysFile	%h/.ssh/authorized_keys
+I, [2017-12-04T22:29:51.965141 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.965641 #14636]  INFO -- default-ubuntu-1604:     -# Don't read the user's ~/.rhosts and ~/.shosts files
+I, [2017-12-04T22:29:51.966141 #14636]  INFO -- default-ubuntu-1604:     -IgnoreRhosts yes
+I, [2017-12-04T22:29:51.966642 #14636]  INFO -- default-ubuntu-1604:     -# For this to work you will also need host keys in /etc/ssh_known_hosts
+I, [2017-12-04T22:29:51.967142 #14636]  INFO -- default-ubuntu-1604:     -RhostsRSAAuthentication no
+I, [2017-12-04T22:29:51.967142 #14636]  INFO -- default-ubuntu-1604:     -# similar for protocol version 2
+I, [2017-12-04T22:29:51.967642 #14636]  INFO -- default-ubuntu-1604:     -HostbasedAuthentication no
+I, [2017-12-04T22:29:51.968142 #14636]  INFO -- default-ubuntu-1604:     -# Uncomment if you don't trust ~/.ssh/known_hosts for RhostsRSAAuthentication
+I, [2017-12-04T22:29:51.968142 #14636]  INFO -- default-ubuntu-1604:     -#IgnoreUserKnownHosts yes
+I, [2017-12-04T22:29:51.968642 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.969142 #14636]  INFO -- default-ubuntu-1604:     -# To enable empty passwords, change to yes (NOT RECOMMENDED)
+I, [2017-12-04T22:29:51.969142 #14636]  INFO -- default-ubuntu-1604:     -PermitEmptyPasswords no
+I, [2017-12-04T22:29:51.969642 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.970142 #14636]  INFO -- default-ubuntu-1604:     -# Change to yes to enable challenge-response passwords (beware issues with
+I, [2017-12-04T22:29:51.970642 #14636]  INFO -- default-ubuntu-1604:     -# some PAM modules and threads)
+I, [2017-12-04T22:29:51.970642 #14636]  INFO -- default-ubuntu-1604:     -ChallengeResponseAuthentication no
+I, [2017-12-04T22:29:51.970642 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.970642 #14636]  INFO -- default-ubuntu-1604:     -# Change to no to disable tunnelled clear text passwords
+I, [2017-12-04T22:29:51.971142 #14636]  INFO -- default-ubuntu-1604:     -#PasswordAuthentication yes
+I, [2017-12-04T22:29:51.971142 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.971142 #14636]  INFO -- default-ubuntu-1604:     -# Kerberos options
+I, [2017-12-04T22:29:51.971642 #14636]  INFO -- default-ubuntu-1604:     -#KerberosAuthentication no
+I, [2017-12-04T22:29:51.971642 #14636]  INFO -- default-ubuntu-1604:     -#KerberosGetAFSToken no
+I, [2017-12-04T22:29:51.972142 #14636]  INFO -- default-ubuntu-1604:     -#KerberosOrLocalPasswd yes
+I, [2017-12-04T22:29:51.972642 #14636]  INFO -- default-ubuntu-1604:     -#KerberosTicketCleanup yes
+I, [2017-12-04T22:29:51.972642 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.973142 #14636]  INFO -- default-ubuntu-1604:     -# GSSAPI options
+I, [2017-12-04T22:29:51.973142 #14636]  INFO -- default-ubuntu-1604:     -#GSSAPIAuthentication no
+I, [2017-12-04T22:29:51.973142 #14636]  INFO -- default-ubuntu-1604:     -#GSSAPICleanupCredentials yes
+I, [2017-12-04T22:29:51.973142 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.973642 #14636]  INFO -- default-ubuntu-1604:     -X11Forwarding yes
+I, [2017-12-04T22:29:51.973642 #14636]  INFO -- default-ubuntu-1604:     -X11DisplayOffset 10
+I, [2017-12-04T22:29:51.973642 #14636]  INFO -- default-ubuntu-1604:     -PrintMotd no
+I, [2017-12-04T22:29:51.973642 #14636]  INFO -- default-ubuntu-1604:     -PrintLastLog yes
+I, [2017-12-04T22:29:51.973642 #14636]  INFO -- default-ubuntu-1604:     -TCPKeepAlive yes
+I, [2017-12-04T22:29:51.973642 #14636]  INFO -- default-ubuntu-1604:     -#UseLogin no
+I, [2017-12-04T22:29:51.973642 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.973642 #14636]  INFO -- default-ubuntu-1604:     -#MaxStartups 10:30:60
+I, [2017-12-04T22:29:51.974142 #14636]  INFO -- default-ubuntu-1604:     -#Banner /etc/issue.net
+I, [2017-12-04T22:29:51.974142 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     -# Allow client to pass locale environment variables
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     -AcceptEnv LANG LC_*
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     +PasswordAuthentication no
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     +PermitRootLogin no
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     +Protocol 2
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     +RevokedKeys /etc/ssh/revoked_keys
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:      Subsystem sftp /usr/lib/openssh/sftp-server
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     -# Set this to 'yes' to enable PAM authentication, account processing,
+I, [2017-12-04T22:29:51.974643 #14636]  INFO -- default-ubuntu-1604:     -# and session processing. If this is enabled, PAM authentication will
+I, [2017-12-04T22:29:51.975143 #14636]  INFO -- default-ubuntu-1604:     -# be allowed through the ChallengeResponseAuthentication and
+I, [2017-12-04T22:29:51.975143 #14636]  INFO -- default-ubuntu-1604:     -# PasswordAuthentication.  Depending on your PAM configuration,
+I, [2017-12-04T22:29:51.975143 #14636]  INFO -- default-ubuntu-1604:     -# PAM authentication via ChallengeResponseAuthentication may bypass
+I, [2017-12-04T22:29:51.975143 #14636]  INFO -- default-ubuntu-1604:     -# the setting of "PermitRootLogin without-password".
+I, [2017-12-04T22:29:51.975143 #14636]  INFO -- default-ubuntu-1604:     -# If you just want the PAM account and session checks to run without
+I, [2017-12-04T22:29:51.975143 #14636]  INFO -- default-ubuntu-1604:     -# PAM authentication, then enable this but set PasswordAuthentication
+I, [2017-12-04T22:29:51.975143 #14636]  INFO -- default-ubuntu-1604:     -# and ChallengeResponseAuthentication to 'no'.
+I, [2017-12-04T22:29:51.975143 #14636]  INFO -- default-ubuntu-1604:     +TrustedUserCAKeys /etc/ssh/ca_keys
+I, [2017-12-04T22:29:51.975143 #14636]  INFO -- default-ubuntu-1604:      UsePAM yes
+I, [2017-12-04T22:29:51.975643 #14636]  INFO -- default-ubuntu-1604:     -UseDNS no
+I, [2017-12-04T22:29:51.975643 #14636]  INFO -- default-ubuntu-1604:     -GSSAPIAuthentication no
+I, [2017-12-04T22:29:51.976143 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:29:51.976143 #14636]  INFO -- default-ubuntu-1604:   * execute[sshd-config-check] action run
+I, [2017-12-04T22:29:51.976643 #14636]  INFO -- default-ubuntu-1604:     - execute /usr/sbin/sshd -t
+I, [2017-12-04T22:29:51.976643 #14636]  INFO -- default-ubuntu-1604:   * execute[sshd-config-check] action nothing (skipped due to action :nothing)
+I, [2017-12-04T22:29:52.047152 #14636]  INFO -- default-ubuntu-1604:   * service[ssh] action enable (up to date)
+I, [2017-12-04T22:29:52.138163 #14636]  INFO -- default-ubuntu-1604:   * service[ssh] action start (up to date)
+I, [2017-12-04T22:29:52.138163 #14636]  INFO -- default-ubuntu-1604: Recipe: assignment-group3::default
+I, [2017-12-04T22:29:52.138663 #14636]  INFO -- default-ubuntu-1604:   * ruby_block[ensure ssh protocol version 2] action run
+I, [2017-12-04T22:29:52.139163 #14636]  INFO -- default-ubuntu-1604:     - execute the ruby block ensure ssh protocol version 2
+I, [2017-12-04T22:29:52.139663 #14636]  INFO -- default-ubuntu-1604:   * file[/etc/motd] action create
+I, [2017-12-04T22:29:52.140164 #14636]  INFO -- default-ubuntu-1604:     - create new file /etc/motd
+I, [2017-12-04T22:29:52.140164 #14636]  INFO -- default-ubuntu-1604:     - update content in file /etc/motd from none to 99c45a
+I, [2017-12-04T22:29:52.140664 #14636]  INFO -- default-ubuntu-1604:     --- /etc/motd	2017-12-04 21:29:50.995489739 +0000
+I, [2017-12-04T22:29:52.141164 #14636]  INFO -- default-ubuntu-1604:     +++ /etc/.chef-motd20171204-1698-1mtj09u	2017-12-04 21:29:50.995489739 +0000
+I, [2017-12-04T22:29:52.141664 #14636]  INFO -- default-ubuntu-1604:     @@ -1 +1,3 @@
+I, [2017-12-04T22:29:52.141664 #14636]  INFO -- default-ubuntu-1604:     +ubuntu
+I, [2017-12-04T22:29:52.142164 #14636]  INFO -- default-ubuntu-1604:     +16.0413.6.4
+I, [2017-12-04T22:29:52.483207 #14636]  INFO -- default-ubuntu-1604:   * group[lecturer] action create
+I, [2017-12-04T22:29:52.483707 #14636]  INFO -- default-ubuntu-1604:     - create group lecturer
+I, [2017-12-04T22:29:52.604222 #14636]  INFO -- default-ubuntu-1604:   * linux_user[ckappel] action create
+I, [2017-12-04T22:29:52.605223 #14636]  INFO -- default-ubuntu-1604:     - create user ckappel
+I, [2017-12-04T22:29:52.647728 #14636]  INFO -- default-ubuntu-1604:   * linux_user[animmervoll] action create
+I, [2017-12-04T22:29:52.648228 #14636]  INFO -- default-ubuntu-1604:     - create user animmervoll
+I, [2017-12-04T22:29:52.648728 #14636]  INFO -- default-ubuntu-1604:   * directory[/home/automationguy] action create
+I, [2017-12-04T22:29:52.649228 #14636]  INFO -- default-ubuntu-1604:     - create new directory /home/automationguy
+I, [2017-12-04T22:29:52.649228 #14636]  INFO -- default-ubuntu-1604:     - change mode from '' to '0755'
+I, [2017-12-04T22:29:52.649728 #14636]  INFO -- default-ubuntu-1604:     - change owner from '' to 'ckappel'
+I, [2017-12-04T22:29:52.654229 #14636]  INFO -- default-ubuntu-1604:     - change group from '' to 'lecturer'
+I, [2017-12-04T22:29:52.656729 #14636]  INFO -- default-ubuntu-1604:   * directory[/home/guru1] action create
+I, [2017-12-04T22:29:52.657729 #14636]  INFO -- default-ubuntu-1604:     - create new directory /home/guru1
+I, [2017-12-04T22:29:52.658229 #14636]  INFO -- default-ubuntu-1604:     - change mode from '' to '0755'
+I, [2017-12-04T22:29:52.658729 #14636]  INFO -- default-ubuntu-1604:     - change owner from '' to 'animmervoll'
+I, [2017-12-04T22:29:52.659229 #14636]  INFO -- default-ubuntu-1604:     - change group from '' to 'lecturer'
+I, [2017-12-04T22:29:52.659229 #14636]  INFO -- default-ubuntu-1604: Recipe: sudo::default
+I, [2017-12-04T22:29:52.679732 #14636]  INFO -- default-ubuntu-1604:   * apt_package[sudo] action install (skipped due to not_if)
+I, [2017-12-04T22:29:52.680232 #14636]  INFO -- default-ubuntu-1604:   * directory[/etc/sudoers.d] action create (up to date)
+I, [2017-12-04T22:29:52.691234 #14636]  INFO -- default-ubuntu-1604:   * cookbook_file[/etc/sudoers.d/README] action create
+I, [2017-12-04T22:29:52.691734 #14636]  INFO -- default-ubuntu-1604:     - update content in file /etc/sudoers.d/README from 9d32ba to afd799
+I, [2017-12-04T22:29:52.692734 #14636]  INFO -- default-ubuntu-1604:     --- /etc/sudoers.d/README	2016-03-30 19:57:11.000000000 +0000
+I, [2017-12-04T22:29:52.693234 #14636]  INFO -- default-ubuntu-1604:     +++ /etc/sudoers.d/.chef-README20171204-1698-13eu4cp	2017-12-04 21:29:51.539761739 +0000
+I, [2017-12-04T22:29:52.693734 #14636]  INFO -- default-ubuntu-1604:     @@ -1,22 +1,7 @@
+I, [2017-12-04T22:29:52.694234 #14636]  INFO -- default-ubuntu-1604:     -#
+I, [2017-12-04T22:29:52.694734 #14636]  INFO -- default-ubuntu-1604:     -# As of Debian version 1.7.2p1-1, the default /etc/sudoers file created on
+I, [2017-12-04T22:29:52.695234 #14636]  INFO -- default-ubuntu-1604:     -# installation of the package now includes the directive:
+I, [2017-12-04T22:29:52.695734 #14636]  INFO -- default-ubuntu-1604:     -# 
+I, [2017-12-04T22:29:52.696234 #14636]  INFO -- default-ubuntu-1604:     -# 	#includedir /etc/sudoers.d
+I, [2017-12-04T22:29:52.696734 #14636]  INFO -- default-ubuntu-1604:     -# 
+I, [2017-12-04T22:29:52.703235 #14636]  INFO -- default-ubuntu-1604:     -# This will cause sudo to read and parse any files in the /etc/sudoers.d 
+I, [2017-12-04T22:29:52.704235 #14636]  INFO -- default-ubuntu-1604:     +# This will cause sudo to read and parse any files in the /etc/sudoers.d
+I, [2017-12-04T22:29:52.707736 #14636]  INFO -- default-ubuntu-1604:      # directory that do not end in '~' or contain a '.' character.
+I, [2017-12-04T22:29:52.708736 #14636]  INFO -- default-ubuntu-1604:     -# 
+I, [2017-12-04T22:29:52.709236 #14636]  INFO -- default-ubuntu-1604:     +#
+I, [2017-12-04T22:29:52.709736 #14636]  INFO -- default-ubuntu-1604:      # Note that there must be at least one file in the sudoers.d directory (this
+I, [2017-12-04T22:29:52.710236 #14636]  INFO -- default-ubuntu-1604:      # one will do), and all files in this directory should be mode 0440.
+I, [2017-12-04T22:29:52.710736 #14636]  INFO -- default-ubuntu-1604:     -# 
+I, [2017-12-04T22:29:52.710736 #14636]  INFO -- default-ubuntu-1604:     -# Note also, that because sudoers contents can vary widely, no attempt is 
+I, [2017-12-04T22:29:52.711236 #14636]  INFO -- default-ubuntu-1604:     -# made to add this directive to existing sudoers files on upgrade.  Feel free
+I, [2017-12-04T22:29:52.711736 #14636]  INFO -- default-ubuntu-1604:     -# to add the above directive to the end of your /etc/sudoers file to enable 
+I, [2017-12-04T22:29:52.712236 #14636]  INFO -- default-ubuntu-1604:     -# this functionality for existing installations if you wish!
+I, [2017-12-04T22:29:52.712236 #14636]  INFO -- default-ubuntu-1604:     -#
+I, [2017-12-04T22:29:52.712236 #14636]  INFO -- default-ubuntu-1604:     -# Finally, please note that using the visudo command is the recommended way
+I, [2017-12-04T22:29:52.712736 #14636]  INFO -- default-ubuntu-1604:     -# to update sudoers content, since it protects against many failure modes.
+I, [2017-12-04T22:29:52.713236 #14636]  INFO -- default-ubuntu-1604:     -# See the man page for visudo for more information.
+I, [2017-12-04T22:29:52.713236 #14636]  INFO -- default-ubuntu-1604:      #
+I, [2017-12-04T22:29:52.713736 #14636]  INFO -- default-ubuntu-1604:   * template[/etc/sudoers] action create
+I, [2017-12-04T22:29:52.713736 #14636]  INFO -- default-ubuntu-1604:     - update content in file /etc/sudoers from c2bd8d to d1402c
+I, [2017-12-04T22:29:52.714236 #14636]  INFO -- default-ubuntu-1604:     --- /etc/sudoers	2017-10-27 20:39:15.761080877 +0000
+I, [2017-12-04T22:29:52.714236 #14636]  INFO -- default-ubuntu-1604:     +++ /etc/.chef-sudoers20171204-1698-1jyoxeb	2017-12-04 21:29:51.559771739 +0000
+I, [2017-12-04T22:29:52.714736 #14636]  INFO -- default-ubuntu-1604:     @@ -1,32 +1,17 @@
+I, [2017-12-04T22:29:52.715237 #14636]  INFO -- default-ubuntu-1604:     -#
+I, [2017-12-04T22:29:52.715237 #14636]  INFO -- default-ubuntu-1604:     -# This file MUST be edited with the 'visudo' command as root.
+I, [2017-12-04T22:29:52.715237 #14636]  INFO -- default-ubuntu-1604:     -#
+I, [2017-12-04T22:29:52.715737 #14636]  INFO -- default-ubuntu-1604:     -# Please consider adding local content in /etc/sudoers.d/ instead of
+I, [2017-12-04T22:29:52.715737 #14636]  INFO -- default-ubuntu-1604:     -# directly modifying this file.
+I, [2017-12-04T22:29:52.716237 #14636]  INFO -- default-ubuntu-1604:     -#
+I, [2017-12-04T22:29:52.716237 #14636]  INFO -- default-ubuntu-1604:     -# See the man page for details on how to write a sudoers file.
+I, [2017-12-04T22:29:52.716737 #14636]  INFO -- default-ubuntu-1604:     -#
+I, [2017-12-04T22:29:52.717237 #14636]  INFO -- default-ubuntu-1604:     -Defaults	env_reset
+I, [2017-12-04T22:29:52.717737 #14636]  INFO -- default-ubuntu-1604:     -Defaults	exempt_group=sudo
+I, [2017-12-04T22:29:52.718237 #14636]  INFO -- default-ubuntu-1604:     -Defaults	mail_badpass
+I, [2017-12-04T22:29:52.718237 #14636]  INFO -- default-ubuntu-1604:     -Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
+I, [2017-12-04T22:29:52.718737 #14636]  INFO -- default-ubuntu-1604:     +# This file is managed by Chef.
+I, [2017-12-04T22:29:52.719237 #14636]  INFO -- default-ubuntu-1604:     +# Do NOT modify this file directly.
+I, [2017-12-04T22:29:52.719237 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:52.719237 #14636]  INFO -- default-ubuntu-1604:     -# Host alias specification
+I, [2017-12-04T22:29:52.719737 #14636]  INFO -- default-ubuntu-1604:     +Defaults      !lecture,tty_tickets,!fqdn
+I, [2017-12-04T22:29:52.719737 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:52.719737 #14636]  INFO -- default-ubuntu-1604:     -# User alias specification
+I, [2017-12-04T22:29:52.719737 #14636]  INFO -- default-ubuntu-1604:     +# User privilege specification
+I, [2017-12-04T22:29:52.719737 #14636]  INFO -- default-ubuntu-1604:     +root          ALL=(ALL) ALL
+I, [2017-12-04T22:29:52.720237 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:52.720237 #14636]  INFO -- default-ubuntu-1604:     -# Cmnd alias specification
+I, [2017-12-04T22:29:52.720237 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:52.720237 #14636]  INFO -- default-ubuntu-1604:     -# User privilege specification
+I, [2017-12-04T22:29:52.720237 #14636]  INFO -- default-ubuntu-1604:     -root	ALL=(ALL:ALL) ALL
+I, [2017-12-04T22:29:52.720737 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:52.720737 #14636]  INFO -- default-ubuntu-1604:     -# Members of the admin group may gain root privileges
+I, [2017-12-04T22:29:52.720737 #14636]  INFO -- default-ubuntu-1604:     -%admin ALL=(ALL) ALL
+I, [2017-12-04T22:29:52.720737 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:52.720737 #14636]  INFO -- default-ubuntu-1604:     -# Allow members of group sudo to execute any command
+I, [2017-12-04T22:29:52.720737 #14636]  INFO -- default-ubuntu-1604:     -%sudo	ALL=(ALL:ALL) ALL
+I, [2017-12-04T22:29:52.720737 #14636]  INFO -- default-ubuntu-1604:     +kitchen ALL=(ALL) NOPASSWD:ALL
+I, [2017-12-04T22:29:52.721237 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:52.721737 #14636]  INFO -- default-ubuntu-1604:     -# See sudoers(5) for more information on "#include" directives:
+I, [2017-12-04T22:29:52.721737 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:29:52.722237 #14636]  INFO -- default-ubuntu-1604:     +# This is not a comment; see sudoers(5) for more information on "#include" directives
+I, [2017-12-04T22:29:52.722237 #14636]  INFO -- default-ubuntu-1604:      #includedir /etc/sudoers.d
+I, [2017-12-04T22:29:52.722738 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::default
+I, [2017-12-04T22:29:52.736239 #14636]  INFO -- default-ubuntu-1604:   * nginx_cleanup_runit[cleanup] action cleanup
+I, [2017-12-04T22:29:52.737239 #14636]  INFO -- default-ubuntu-1604:     * file[remove symlinked runit init script] action delete (skipped due to only_if)
+I, [2017-12-04T22:29:52.738239 #14636]  INFO -- default-ubuntu-1604:     * execute[kill old nginx process] action run (skipped due to not_if)
+I, [2017-12-04T22:29:52.740240 #14636]  INFO -- default-ubuntu-1604:     * directory[/etc/sv/nginx] action delete (up to date)
+I, [2017-12-04T22:29:52.740240 #14636]  INFO -- default-ubuntu-1604:      (up to date)
+I, [2017-12-04T22:29:52.740740 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::ohai_plugin
+I, [2017-12-04T22:29:52.741240 #14636]  INFO -- default-ubuntu-1604:   * ohai[reload_nginx] action nothing (skipped due to action :nothing)
+I, [2017-12-04T22:29:52.741240 #14636]  INFO -- default-ubuntu-1604:   * ohai_plugin[nginx] action create
+I, [2017-12-04T22:29:52.741740 #14636]  INFO -- default-ubuntu-1604:     * directory[/tmp/kitchen/ohai/plugins] action create (skipped due to not_if)
+I, [2017-12-04T22:29:52.742240 #14636]  INFO -- default-ubuntu-1604:     * template[/tmp/kitchen/ohai/plugins/nginx.rb] action create (up to date)
+I, [2017-12-04T22:29:52.742240 #14636]  INFO -- default-ubuntu-1604:     * ohai[nginx] action nothing (skipped due to action :nothing)
+I, [2017-12-04T22:29:52.742740 #14636]  INFO -- default-ubuntu-1604:      (up to date)
+I, [2017-12-04T22:29:52.742740 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::repo
+I, [2017-12-04T22:29:52.863255 #14636]  INFO -- default-ubuntu-1604:   * apt_repository[nginx] action add
+I, [2017-12-04T22:29:53.643854 #14636]  INFO -- default-ubuntu-1604:     * remote_file[/tmp/kitchen/cache/https___nginx_org_keys_nginx_signing_key] action create
+I, [2017-12-04T22:29:53.644355 #14636]  INFO -- default-ubuntu-1604:       - create new file /tmp/kitchen/cache/https___nginx_org_keys_nginx_signing_key
+I, [2017-12-04T22:29:53.644855 #14636]  INFO -- default-ubuntu-1604:       - update content in file /tmp/kitchen/cache/https___nginx_org_keys_nginx_signing_key from none to dd4da5
+I, [2017-12-04T22:29:53.645355 #14636]  INFO -- default-ubuntu-1604:       --- /tmp/kitchen/cache/https___nginx_org_keys_nginx_signing_key	2017-12-04 21:29:52.500241739 +0000
+I, [2017-12-04T22:29:53.645355 #14636]  INFO -- default-ubuntu-1604:       +++ /tmp/chef-rest20171204-1698-1gcsbby	2017-12-04 21:29:52.500241739 +0000
+I, [2017-12-04T22:29:53.645855 #14636]  INFO -- default-ubuntu-1604:       @@ -1 +1,29 @@
+I, [2017-12-04T22:29:53.646355 #14636]  INFO -- default-ubuntu-1604:       +-----BEGIN PGP PUBLIC KEY BLOCK-----
+I, [2017-12-04T22:29:53.646355 #14636]  INFO -- default-ubuntu-1604:       +Version: GnuPG v2.0.22 (GNU/Linux)
+I, [2017-12-04T22:29:53.646855 #14636]  INFO -- default-ubuntu-1604:       +
+I, [2017-12-04T22:29:53.646855 #14636]  INFO -- default-ubuntu-1604:       +mQENBE5OMmIBCAD+FPYKGriGGf7NqwKfWC83cBV01gabgVWQmZbMcFzeW+hMsgxH
+I, [2017-12-04T22:29:53.647355 #14636]  INFO -- default-ubuntu-1604:       +W6iimD0RsfZ9oEbfJCPG0CRSZ7ppq5pKamYs2+EJ8Q2ysOFHHwpGrA2C8zyNAs4I
+I, [2017-12-04T22:29:53.647355 #14636]  INFO -- default-ubuntu-1604:       +QxnZZIbETgcSwFtDun0XiqPwPZgyuXVm9PAbLZRbfBzm8wR/3SWygqZBBLdQk5TE
+I, [2017-12-04T22:29:53.647855 #14636]  INFO -- default-ubuntu-1604:       +fDR+Eny/M1RVR4xClECONF9UBB2ejFdI1LD45APbP2hsN/piFByU1t7yK2gpFyRt
+I, [2017-12-04T22:29:53.648355 #14636]  INFO -- default-ubuntu-1604:       +97WzGHn9MV5/TL7AmRPM4pcr3JacmtCnxXeCZ8nLqedoSuHFuhwyDnlAbu8I16O5
+I, [2017-12-04T22:29:53.648355 #14636]  INFO -- default-ubuntu-1604:       +XRrfzhrHRJFM1JnIiGmzZi6zBvH0ItfyX6ttABEBAAG0KW5naW54IHNpZ25pbmcg
+I, [2017-12-04T22:29:53.648855 #14636]  INFO -- default-ubuntu-1604:       +a2V5IDxzaWduaW5nLWtleUBuZ2lueC5jb20+iQE+BBMBAgAoAhsDBgsJCAcDAgYV
+I, [2017-12-04T22:29:53.649355 #14636]  INFO -- default-ubuntu-1604:       +CAIJCgsEFgIDAQIeAQIXgAUCV2K1+AUJGB4fQQAKCRCr9b2Ce9m/YloaB/9XGrol
+I, [2017-12-04T22:29:53.649355 #14636]  INFO -- default-ubuntu-1604:       +kocm7l/tsVjaBQCteXKuwsm4XhCuAQ6YAwA1L1UheGOG/aa2xJvrXE8X32tgcTjr
+I, [2017-12-04T22:29:53.649855 #14636]  INFO -- default-ubuntu-1604:       +KoYoXWcdxaFjlXGTt6jV85qRguUzvMOxxSEM2Dn115etN9piPl0Zz+4rkx8+2vJG
+I, [2017-12-04T22:29:53.650355 #14636]  INFO -- default-ubuntu-1604:       +F+eMlruPXg/zd88NvyLq5gGHEsFRBMVufYmHtNfcp4okC1klWiRIRSdp4QY1wdrN
+I, [2017-12-04T22:29:53.650355 #14636]  INFO -- default-ubuntu-1604:       +1O+/oCTl8Bzy6hcHjLIq3aoumcLxMjtBoclc/5OTioLDwSDfVx7rWyfRhcBzVbwD
+I, [2017-12-04T22:29:53.650855 #14636]  INFO -- default-ubuntu-1604:       +oe/PD08AoAA6fxXvWjSxy+dGhEaXoTHjkCbz/l6NxrK3JFyauDgU4K4MytsZ1HDi
+I, [2017-12-04T22:29:53.650855 #14636]  INFO -- default-ubuntu-1604:       +MgMW8hZXxszoICTTiQEcBBABAgAGBQJOTkelAAoJEKZP1bF62zmo79oH/1XDb29S
+I, [2017-12-04T22:29:53.651355 #14636]  INFO -- default-ubuntu-1604:       +YtWp+MTJTPFEwlWRiyRuDXy3wBd/BpwBRIWfWzMs1gnCjNjk0EVBVGa2grvy9Jtx
+I, [2017-12-04T22:29:53.651355 #14636]  INFO -- default-ubuntu-1604:       +JKMd6l/PWXVucSt+U/+GO8rBkw14SdhqxaS2l14v6gyMeUrSbY3XfToGfwHC4sa/
+I, [2017-12-04T22:29:53.651855 #14636]  INFO -- default-ubuntu-1604:       +Thn8X4jFaQ2XN5dAIzJGU1s5JA0tjEzUwCnmrKmyMlXZaoQVrmORGjCuH0I0aAFk
+I, [2017-12-04T22:29:53.651855 #14636]  INFO -- default-ubuntu-1604:       +RS0UtnB9HPpxhGVbs24xXZQnZDNbUQeulFxS4uP3OLDBAeCHl+v4t/uotIad8v6J
+I, [2017-12-04T22:29:53.652356 #14636]  INFO -- default-ubuntu-1604:       +SO93vc1evIje6lguE81HHmJn9noxPItvOvSMb2yPsE8mH4cJHRTFNSEhPW6ghmlf
+I, [2017-12-04T22:29:53.652356 #14636]  INFO -- default-ubuntu-1604:       +Wa9ZwiVX5igxcvaIRgQQEQIABgUCTk5b0gAKCRDs8OkLLBcgg1G+AKCnacLb/+W6
+I, [2017-12-04T22:29:53.652856 #14636]  INFO -- default-ubuntu-1604:       +cflirUIExgZdUJqoogCeNPVwXiHEIVqithAM1pdY/gcaQZmIRgQQEQIABgUCTk5f
+I, [2017-12-04T22:29:53.652856 #14636]  INFO -- default-ubuntu-1604:       +YQAKCRCpN2E5pSTFPnNWAJ9gUozyiS+9jf2rJvqmJSeWuCgVRwCcCUFhXRCpQO2Y
+I, [2017-12-04T22:29:53.653356 #14636]  INFO -- default-ubuntu-1604:       +Va3l3WuB+rgKjsQ=
+I, [2017-12-04T22:29:53.653356 #14636]  INFO -- default-ubuntu-1604:       +=EWWI
+I, [2017-12-04T22:29:53.653856 #14636]  INFO -- default-ubuntu-1604:       +-----END PGP PUBLIC KEY BLOCK-----
+I, [2017-12-04T22:29:53.653856 #14636]  INFO -- default-ubuntu-1604:       - change mode from '' to '0644'
+I, [2017-12-04T22:29:54.134917 #14636]  INFO -- default-ubuntu-1604:     * execute[apt-key add /tmp/kitchen/cache/https___nginx_org_keys_nginx_signing_key] action run
+I, [2017-12-04T22:29:54.135417 #14636]  INFO -- default-ubuntu-1604:       - execute apt-key add /tmp/kitchen/cache/https___nginx_org_keys_nginx_signing_key
+I, [2017-12-04T22:29:54.197925 #14636]  INFO -- default-ubuntu-1604:     * execute[apt-cache gencaches] action run
+I, [2017-12-04T22:29:54.198425 #14636]  INFO -- default-ubuntu-1604:       - execute apt-cache gencaches
+I, [2017-12-04T22:29:54.198425 #14636]  INFO -- default-ubuntu-1604:     * execute[apt-cache gencaches] action nothing (skipped due to action :nothing)
+I, [2017-12-04T22:29:54.198925 #14636]  INFO -- default-ubuntu-1604:     * apt_update[nginx] action nothing (skipped due to action :nothing)
+I, [2017-12-04T22:29:54.208926 #14636]  INFO -- default-ubuntu-1604:     * file[/etc/apt/sources.list.d/nginx.list] action create
+I, [2017-12-04T22:29:54.209426 #14636]  INFO -- default-ubuntu-1604:       - create new file /etc/apt/sources.list.d/nginx.list
+I, [2017-12-04T22:29:54.209426 #14636]  INFO -- default-ubuntu-1604:       - update content in file /etc/apt/sources.list.d/nginx.list from none to 3a04d8
+I, [2017-12-04T22:29:54.209926 #14636]  INFO -- default-ubuntu-1604:       --- /etc/apt/sources.list.d/nginx.list	2017-12-04 21:29:53.060521739 +0000
+I, [2017-12-04T22:29:54.210426 #14636]  INFO -- default-ubuntu-1604:       +++ /etc/apt/sources.list.d/.chef-nginx20171204-1698-18omcpj.list	2017-12-04 21:29:53.060521739 +0000
+I, [2017-12-04T22:29:54.210426 #14636]  INFO -- default-ubuntu-1604:       @@ -1 +1,3 @@
+I, [2017-12-04T22:29:54.210926 #14636]  INFO -- default-ubuntu-1604:       +deb      "https://nginx.org/packages/ubuntu" xenial nginx
+I, [2017-12-04T22:29:54.210926 #14636]  INFO -- default-ubuntu-1604:       +deb-src  "https://nginx.org/packages/ubuntu" xenial nginx
+I, [2017-12-04T22:29:54.211427 #14636]  INFO -- default-ubuntu-1604:       - change mode from '' to '0644'
+I, [2017-12-04T22:29:54.211927 #14636]  INFO -- default-ubuntu-1604:       - change owner from '' to 'root'
+I, [2017-12-04T22:29:54.212427 #14636]  INFO -- default-ubuntu-1604:       - change group from '' to 'root'
+I, [2017-12-04T22:29:57.165302 #14636]  INFO -- default-ubuntu-1604:     * execute[apt-cache gencaches] action run
+I, [2017-12-04T22:29:57.165802 #14636]  INFO -- default-ubuntu-1604:       - execute apt-cache gencaches
+I, [2017-12-04T22:29:57.166302 #14636]  INFO -- default-ubuntu-1604:     * apt_update[nginx] action update
+I, [2017-12-04T22:29:57.166302 #14636]  INFO -- default-ubuntu-1604:       - force update new lists of packages
+I, [2017-12-04T22:29:57.286817 #14636]  INFO -- default-ubuntu-1604:       * directory[/var/lib/apt/periodic] action create (up to date)
+I, [2017-12-04T22:29:57.287317 #14636]  INFO -- default-ubuntu-1604:       * directory[/etc/apt/apt.conf.d] action create (up to date)
+I, [2017-12-04T22:29:57.287817 #14636]  INFO -- default-ubuntu-1604:       * file[/etc/apt/apt.conf.d/15update-stamp] action create_if_missing (up to date)
+I, [2017-12-04T22:30:10.030935 #14636]  INFO -- default-ubuntu-1604:       * execute[apt-get -q update] action run
+I, [2017-12-04T22:30:10.031435 #14636]  INFO -- default-ubuntu-1604:  - execute apt-get -q update
+I, [2017-12-04T22:30:10.031936 #14636]  INFO -- default-ubuntu-1604:     
+I, [2017-12-04T22:30:10.031936 #14636]  INFO -- default-ubuntu-1604:   
+I, [2017-12-04T22:30:10.032436 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::package
+I, [2017-12-04T22:30:28.847325 #14636]  INFO -- default-ubuntu-1604:   * apt_package[nginx] action install
+I, [2017-12-04T22:30:28.847825 #14636]  INFO -- default-ubuntu-1604:     - install version 1.12.2-1~xenial of package nginx
+I, [2017-12-04T22:30:28.847825 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::ohai_plugin
+I, [2017-12-04T22:30:28.931835 #14636]  INFO -- default-ubuntu-1604:   * ohai[reload_nginx] action reload
+I, [2017-12-04T22:30:28.932336 #14636]  INFO -- default-ubuntu-1604:     - re-run ohai and merge results into node attributes
+I, [2017-12-04T22:30:28.932336 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::commons_dir
+I, [2017-12-04T22:30:28.932836 #14636]  INFO -- default-ubuntu-1604:   * directory[/etc/nginx] action create (up to date)
+I, [2017-12-04T22:30:28.942837 #14636]  INFO -- default-ubuntu-1604:   * directory[/var/log/nginx] action create
+I, [2017-12-04T22:30:28.943337 #14636]  INFO -- default-ubuntu-1604:     - change mode from '0755' to '0750'
+I, [2017-12-04T22:30:28.943337 #14636]  INFO -- default-ubuntu-1604:     - change owner from 'root' to 'www-data'
+I, [2017-12-04T22:30:28.943837 #14636]  INFO -- default-ubuntu-1604:   * directory[pid file directory] action create (up to date)
+I, [2017-12-04T22:30:28.944337 #14636]  INFO -- default-ubuntu-1604:   * directory[/etc/nginx/sites-available] action create
+I, [2017-12-04T22:30:28.944337 #14636]  INFO -- default-ubuntu-1604:     - create new directory /etc/nginx/sites-available
+I, [2017-12-04T22:30:28.944837 #14636]  INFO -- default-ubuntu-1604:     - change mode from '' to '0755'
+I, [2017-12-04T22:30:28.945337 #14636]  INFO -- default-ubuntu-1604:   * directory[/etc/nginx/sites-enabled] action create
+I, [2017-12-04T22:30:28.945337 #14636]  INFO -- default-ubuntu-1604:     - create new directory /etc/nginx/sites-enabled
+I, [2017-12-04T22:30:28.945837 #14636]  INFO -- default-ubuntu-1604:     - change mode from '' to '0755'
+I, [2017-12-04T22:30:28.955839 #14636]  INFO -- default-ubuntu-1604:   * directory[/etc/nginx/conf.d] action create (up to date)
+I, [2017-12-04T22:30:28.956339 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::commons_script
+I, [2017-12-04T22:30:28.960839 #14636]  INFO -- default-ubuntu-1604:   * template[/usr/sbin/nxensite] action create
+I, [2017-12-04T22:30:29.022847 #14636]  INFO -- default-ubuntu-1604:     - create new file /usr/sbin/nxensite
+I, [2017-12-04T22:30:29.023347 #14636]  INFO -- default-ubuntu-1604:     - update content in file /usr/sbin/nxensite from none to fa46fb
+I, [2017-12-04T22:30:29.023847 #14636]  INFO -- default-ubuntu-1604:     --- /usr/sbin/nxensite	2017-12-04 21:30:27.829897739 +0000
+I, [2017-12-04T22:30:29.024847 #14636]  INFO -- default-ubuntu-1604:     +++ /usr/sbin/.chef-nxensite20171204-1698-qt0m8p	2017-12-04 21:30:27.829897739 +0000
+I, [2017-12-04T22:30:29.024847 #14636]  INFO -- default-ubuntu-1604:     @@ -1 +1,39 @@
+I, [2017-12-04T22:30:29.025347 #14636]  INFO -- default-ubuntu-1604:     +#!/bin/sh -e
+I, [2017-12-04T22:30:29.025847 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.026347 #14636]  INFO -- default-ubuntu-1604:     +SYSCONFDIR='/etc/nginx'
+I, [2017-12-04T22:30:29.026347 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.026848 #14636]  INFO -- default-ubuntu-1604:     +if [ -z $1 ]; then
+I, [2017-12-04T22:30:29.026848 #14636]  INFO -- default-ubuntu-1604:     +        echo "Which site would you like to enable?"
+I, [2017-12-04T22:30:29.027348 #14636]  INFO -- default-ubuntu-1604:     +        echo -n "Your choices are: "
+I, [2017-12-04T22:30:29.027848 #14636]  INFO -- default-ubuntu-1604:     +        ls $SYSCONFDIR/sites-available/* | \
+I, [2017-12-04T22:30:29.028348 #14636]  INFO -- default-ubuntu-1604:     +        sed -e "s,$SYSCONFDIR/sites-available/,,g" | xargs echo
+I, [2017-12-04T22:30:29.028848 #14636]  INFO -- default-ubuntu-1604:     +        echo -n "Site name? "
+I, [2017-12-04T22:30:29.028848 #14636]  INFO -- default-ubuntu-1604:     +        read SITENAME
+I, [2017-12-04T22:30:29.028848 #14636]  INFO -- default-ubuntu-1604:     +else
+I, [2017-12-04T22:30:29.029848 #14636]  INFO -- default-ubuntu-1604:     +        SITENAME=$1
+I, [2017-12-04T22:30:29.030348 #14636]  INFO -- default-ubuntu-1604:     +fi
+I, [2017-12-04T22:30:29.030348 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.030348 #14636]  INFO -- default-ubuntu-1604:     +if [ $SITENAME = "default" ]; then
+I, [2017-12-04T22:30:29.030348 #14636]  INFO -- default-ubuntu-1604:     +        PRIORITY="000"
+I, [2017-12-04T22:30:29.030348 #14636]  INFO -- default-ubuntu-1604:     +fi
+I, [2017-12-04T22:30:29.030348 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.030348 #14636]  INFO -- default-ubuntu-1604:     +if [ -e $SYSCONFDIR/sites-enabled/$SITENAME -o \
+I, [2017-12-04T22:30:29.030848 #14636]  INFO -- default-ubuntu-1604:     +     -e $SYSCONFDIR/sites-enabled/"$PRIORITY"-"$SITENAME" ]; then
+I, [2017-12-04T22:30:29.030848 #14636]  INFO -- default-ubuntu-1604:     +        echo "This site is already enabled!"
+I, [2017-12-04T22:30:29.030848 #14636]  INFO -- default-ubuntu-1604:     +        exit 0
+I, [2017-12-04T22:30:29.030848 #14636]  INFO -- default-ubuntu-1604:     +fi
+I, [2017-12-04T22:30:29.031348 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.031348 #14636]  INFO -- default-ubuntu-1604:     +if ! [ -e $SYSCONFDIR/sites-available/$SITENAME ]; then
+I, [2017-12-04T22:30:29.031848 #14636]  INFO -- default-ubuntu-1604:     +        echo "This site does not exist!"
+I, [2017-12-04T22:30:29.031848 #14636]  INFO -- default-ubuntu-1604:     +        exit 1
+I, [2017-12-04T22:30:29.031848 #14636]  INFO -- default-ubuntu-1604:     +fi
+I, [2017-12-04T22:30:29.032348 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.032348 #14636]  INFO -- default-ubuntu-1604:     +if [ $SITENAME = "default" ]; then
+I, [2017-12-04T22:30:29.032348 #14636]  INFO -- default-ubuntu-1604:     +        ln -sf $SYSCONFDIR/sites-available/$SITENAME \
+I, [2017-12-04T22:30:29.032848 #14636]  INFO -- default-ubuntu-1604:     +               $SYSCONFDIR/sites-enabled/"$PRIORITY"-"$SITENAME"
+I, [2017-12-04T22:30:29.032848 #14636]  INFO -- default-ubuntu-1604:     +else
+I, [2017-12-04T22:30:29.033348 #14636]  INFO -- default-ubuntu-1604:     +        ln -sf $SYSCONFDIR/sites-available/$SITENAME $SYSCONFDIR/sites-enabled/$SITENAME
+I, [2017-12-04T22:30:29.033348 #14636]  INFO -- default-ubuntu-1604:     +fi
+I, [2017-12-04T22:30:29.033348 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.033348 #14636]  INFO -- default-ubuntu-1604:     +echo "Site $SITENAME installed; reload nginx to enable."
+I, [2017-12-04T22:30:29.033848 #14636]  INFO -- default-ubuntu-1604:     - change mode from '' to '0755'
+I, [2017-12-04T22:30:29.033848 #14636]  INFO -- default-ubuntu-1604:   * template[/usr/sbin/nxdissite] action create
+I, [2017-12-04T22:30:29.044350 #14636]  INFO -- default-ubuntu-1604:     - create new file /usr/sbin/nxdissite
+I, [2017-12-04T22:30:29.044850 #14636]  INFO -- default-ubuntu-1604:     - update content in file /usr/sbin/nxdissite from none to cc16ec
+I, [2017-12-04T22:30:29.045350 #14636]  INFO -- default-ubuntu-1604:     --- /usr/sbin/nxdissite	2017-12-04 21:30:27.909937738 +0000
+I, [2017-12-04T22:30:29.045850 #14636]  INFO -- default-ubuntu-1604:     +++ /usr/sbin/.chef-nxdissite20171204-1698-1x9wvq3	2017-12-04 21:30:27.909937738 +0000
+I, [2017-12-04T22:30:29.046350 #14636]  INFO -- default-ubuntu-1604:     @@ -1 +1,30 @@
+I, [2017-12-04T22:30:29.046850 #14636]  INFO -- default-ubuntu-1604:     +#!/bin/sh -e
+I, [2017-12-04T22:30:29.046850 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.047350 #14636]  INFO -- default-ubuntu-1604:     +SYSCONFDIR='/etc/nginx'
+I, [2017-12-04T22:30:29.047350 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.047850 #14636]  INFO -- default-ubuntu-1604:     +if [ -z $1 ]; then
+I, [2017-12-04T22:30:29.047850 #14636]  INFO -- default-ubuntu-1604:     +        echo "Which site would you like to disable?"
+I, [2017-12-04T22:30:29.048350 #14636]  INFO -- default-ubuntu-1604:     +        echo -n "Your choices are: "
+I, [2017-12-04T22:30:29.048350 #14636]  INFO -- default-ubuntu-1604:     +        ls $SYSCONFDIR/sites-enabled/* | \
+I, [2017-12-04T22:30:29.048850 #14636]  INFO -- default-ubuntu-1604:     +        sed -e "s,$SYSCONFDIR/sites-enabled/,,g" | xargs echo
+I, [2017-12-04T22:30:29.048850 #14636]  INFO -- default-ubuntu-1604:     +        echo -n "Site name? "
+I, [2017-12-04T22:30:29.049350 #14636]  INFO -- default-ubuntu-1604:     +        read SITENAME
+I, [2017-12-04T22:30:29.049350 #14636]  INFO -- default-ubuntu-1604:     +else
+I, [2017-12-04T22:30:29.049350 #14636]  INFO -- default-ubuntu-1604:     +        SITENAME=$1
+I, [2017-12-04T22:30:29.049850 #14636]  INFO -- default-ubuntu-1604:     +fi
+I, [2017-12-04T22:30:29.049850 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.050351 #14636]  INFO -- default-ubuntu-1604:     +if [ $SITENAME = "default" ]; then
+I, [2017-12-04T22:30:29.050351 #14636]  INFO -- default-ubuntu-1604:     +        PRIORITY="000"
+I, [2017-12-04T22:30:29.050851 #14636]  INFO -- default-ubuntu-1604:     +fi
+I, [2017-12-04T22:30:29.052851 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.053351 #14636]  INFO -- default-ubuntu-1604:     +if ! [ -e $SYSCONFDIR/sites-enabled/$SITENAME -o \
+I, [2017-12-04T22:30:29.053851 #14636]  INFO -- default-ubuntu-1604:     +       -e $SYSCONFDIR/sites-enabled/"$PRIORITY"-"$SITENAME" ]; then
+I, [2017-12-04T22:30:29.054851 #14636]  INFO -- default-ubuntu-1604:     +        echo "This site is already disabled, or does not exist!"
+I, [2017-12-04T22:30:29.055851 #14636]  INFO -- default-ubuntu-1604:     +        exit 1
+I, [2017-12-04T22:30:29.056351 #14636]  INFO -- default-ubuntu-1604:     +fi
+I, [2017-12-04T22:30:29.056851 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.057351 #14636]  INFO -- default-ubuntu-1604:     +if ! rm $SYSCONFDIR/sites-enabled/$SITENAME 2>/dev/null; then
+I, [2017-12-04T22:30:29.057851 #14636]  INFO -- default-ubuntu-1604:     +        rm -f $SYSCONFDIR/sites-enabled/"$PRIORITY"-"$SITENAME"
+I, [2017-12-04T22:30:29.058352 #14636]  INFO -- default-ubuntu-1604:     +fi
+I, [2017-12-04T22:30:29.058352 #14636]  INFO -- default-ubuntu-1604:     +echo "Site $SITENAME disabled; reload nginx to disable."
+I, [2017-12-04T22:30:29.058852 #14636]  INFO -- default-ubuntu-1604:     - change mode from '' to '0755'
+I, [2017-12-04T22:30:29.058852 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::commons_conf
+I, [2017-12-04T22:30:29.059352 #14636]  INFO -- default-ubuntu-1604:   * template[nginx.conf] action create
+I, [2017-12-04T22:30:29.059852 #14636]  INFO -- default-ubuntu-1604:     - update content in file /etc/nginx/nginx.conf from 772e91 to 272754
+I, [2017-12-04T22:30:29.060352 #14636]  INFO -- default-ubuntu-1604:     --- /etc/nginx/nginx.conf	2017-10-17 13:34:55.000000000 +0000
+I, [2017-12-04T22:30:29.060352 #14636]  INFO -- default-ubuntu-1604:     +++ /etc/nginx/.chef-nginx20171204-1698-4p13rt.conf	2017-12-04 21:30:27.925945739 +0000
+I, [2017-12-04T22:30:29.060852 #14636]  INFO -- default-ubuntu-1604:     @@ -1,33 +1,48 @@
+I, [2017-12-04T22:30:29.062852 #14636]  INFO -- default-ubuntu-1604:     +user www-data;
+I, [2017-12-04T22:30:29.062852 #14636]  INFO -- default-ubuntu-1604:     +worker_processes 1;
+I, [2017-12-04T22:30:29.063352 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:30:29.063352 #14636]  INFO -- default-ubuntu-1604:     -user  nginx;
+I, [2017-12-04T22:30:29.063852 #14636]  INFO -- default-ubuntu-1604:     -worker_processes  1;
+I, [2017-12-04T22:30:29.064352 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:30:29.064352 #14636]  INFO -- default-ubuntu-1604:     -error_log  /var/log/nginx/error.log warn;
+I, [2017-12-04T22:30:29.064352 #14636]  INFO -- default-ubuntu-1604:     +error_log  /var/log/nginx/error.log;
+I, [2017-12-04T22:30:29.064352 #14636]  INFO -- default-ubuntu-1604:      pid        /var/run/nginx.pid;
+I, [2017-12-04T22:30:29.064852 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:30:29.064852 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:30:29.064852 #14636]  INFO -- default-ubuntu-1604:      events {
+I, [2017-12-04T22:30:29.064852 #14636]  INFO -- default-ubuntu-1604:     -    worker_connections  1024;
+I, [2017-12-04T22:30:29.065352 #14636]  INFO -- default-ubuntu-1604:     +  worker_connections  1024;
+I, [2017-12-04T22:30:29.065352 #14636]  INFO -- default-ubuntu-1604:      }
+I, [2017-12-04T22:30:29.065352 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:30:29.065352 #14636]  INFO -- default-ubuntu-1604:     -
+I, [2017-12-04T22:30:29.065853 #14636]  INFO -- default-ubuntu-1604:      http {
+I, [2017-12-04T22:30:29.065853 #14636]  INFO -- default-ubuntu-1604:     -    include       /etc/nginx/mime.types;
+I, [2017-12-04T22:30:29.065853 #14636]  INFO -- default-ubuntu-1604:     -    default_type  application/octet-stream;
+I, [2017-12-04T22:30:29.065853 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:30:29.066353 #14636]  INFO -- default-ubuntu-1604:     -    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+I, [2017-12-04T22:30:29.066353 #14636]  INFO -- default-ubuntu-1604:     -                      '$status $body_bytes_sent "$http_referer" '
+I, [2017-12-04T22:30:29.066353 #14636]  INFO -- default-ubuntu-1604:     -                      '"$http_user_agent" "$http_x_forwarded_for"';
+I, [2017-12-04T22:30:29.066353 #14636]  INFO -- default-ubuntu-1604:     +  include       /etc/nginx/mime.types;
+I, [2017-12-04T22:30:29.066353 #14636]  INFO -- default-ubuntu-1604:     +  default_type  application/octet-stream;
+I, [2017-12-04T22:30:29.066353 #14636]  INFO -- default-ubuntu-1604:     +  charset_types text/css text/plain text/vnd.wap.wml application/javascript application/json application/rss+xml application/xml;
+I, [2017-12-04T22:30:29.066853 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:30:29.066853 #14636]  INFO -- default-ubuntu-1604:     -    access_log  /var/log/nginx/access.log  main;
+I, [2017-12-04T22:30:29.067353 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:30:29.067353 #14636]  INFO -- default-ubuntu-1604:     -    sendfile        on;
+I, [2017-12-04T22:30:29.067353 #14636]  INFO -- default-ubuntu-1604:     -    #tcp_nopush     on;
+I, [2017-12-04T22:30:29.067353 #14636]  INFO -- default-ubuntu-1604:     +  access_log    /var/log/nginx/access.log;
+I, [2017-12-04T22:30:29.067853 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:30:29.067853 #14636]  INFO -- default-ubuntu-1604:     -    keepalive_timeout  65;
+I, [2017-12-04T22:30:29.067853 #14636]  INFO -- default-ubuntu-1604:     +  sendfile on;
+I, [2017-12-04T22:30:29.067853 #14636]  INFO -- default-ubuntu-1604:     +  tcp_nopush on;
+I, [2017-12-04T22:30:29.067853 #14636]  INFO -- default-ubuntu-1604:     +  tcp_nodelay on;
+I, [2017-12-04T22:30:29.067853 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:30:29.068353 #14636]  INFO -- default-ubuntu-1604:     -    #gzip  on;
+I, [2017-12-04T22:30:29.068353 #14636]  INFO -- default-ubuntu-1604:     +  keepalive_requests 100;
+I, [2017-12-04T22:30:29.068853 #14636]  INFO -- default-ubuntu-1604:     +  keepalive_timeout  65;
+I, [2017-12-04T22:30:29.068853 #14636]  INFO -- default-ubuntu-1604:      
+I, [2017-12-04T22:30:29.069353 #14636]  INFO -- default-ubuntu-1604:     -    include /etc/nginx/conf.d/*.conf;
+I, [2017-12-04T22:30:29.069353 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.069853 #14636]  INFO -- default-ubuntu-1604:     +  gzip  on;
+I, [2017-12-04T22:30:29.069853 #14636]  INFO -- default-ubuntu-1604:     +  gzip_http_version 1.0;
+I, [2017-12-04T22:30:29.070353 #14636]  INFO -- default-ubuntu-1604:     +  gzip_comp_level 2;
+I, [2017-12-04T22:30:29.070353 #14636]  INFO -- default-ubuntu-1604:     +  gzip_proxied any;
+I, [2017-12-04T22:30:29.070853 #14636]  INFO -- default-ubuntu-1604:     +  gzip_vary off;
+I, [2017-12-04T22:30:29.071353 #14636]  INFO -- default-ubuntu-1604:     +  gzip_types text/plain text/css application/x-javascript text/xml application/xml application/rss+xml application/atom+xml image/svg+xml text/javascript application/javascript application/json text/mathml;
+I, [2017-12-04T22:30:29.071353 #14636]  INFO -- default-ubuntu-1604:     +  gzip_min_length  1000;
+I, [2017-12-04T22:30:29.071853 #14636]  INFO -- default-ubuntu-1604:     +  gzip_disable     "MSIE [1-6]\.";
+I, [2017-12-04T22:30:29.071853 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.072353 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.072353 #14636]  INFO -- default-ubuntu-1604:     +  variables_hash_max_size 1024;
+I, [2017-12-04T22:30:29.072853 #14636]  INFO -- default-ubuntu-1604:     +  variables_hash_bucket_size 64;
+I, [2017-12-04T22:30:29.072853 #14636]  INFO -- default-ubuntu-1604:     +  server_names_hash_bucket_size 64;
+I, [2017-12-04T22:30:29.073353 #14636]  INFO -- default-ubuntu-1604:     +  types_hash_max_size 2048;
+I, [2017-12-04T22:30:29.073353 #14636]  INFO -- default-ubuntu-1604:     +  types_hash_bucket_size 64;
+I, [2017-12-04T22:30:29.073854 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.073854 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.073854 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.073854 #14636]  INFO -- default-ubuntu-1604:     +  include /etc/nginx/conf.d/*.conf;
+I, [2017-12-04T22:30:29.073854 #14636]  INFO -- default-ubuntu-1604:     +  include /etc/nginx/sites-enabled/*;
+I, [2017-12-04T22:30:29.074354 #14636]  INFO -- default-ubuntu-1604:      }
+I, [2017-12-04T22:30:29.074354 #14636]  INFO -- default-ubuntu-1604:   * template[/etc/nginx/sites-available/default] action create
+I, [2017-12-04T22:30:29.074854 #14636]  INFO -- default-ubuntu-1604:     - create new file /etc/nginx/sites-available/default
+I, [2017-12-04T22:30:29.074854 #14636]  INFO -- default-ubuntu-1604:     - update content in file /etc/nginx/sites-available/default from none to b734df
+I, [2017-12-04T22:30:29.075354 #14636]  INFO -- default-ubuntu-1604:     --- /etc/nginx/sites-available/default	2017-12-04 21:30:27.945955739 +0000
+I, [2017-12-04T22:30:29.075854 #14636]  INFO -- default-ubuntu-1604:     +++ /etc/nginx/sites-available/.chef-default20171204-1698-i2ovwi	2017-12-04 21:30:27.945955739 +0000
+I, [2017-12-04T22:30:29.076354 #14636]  INFO -- default-ubuntu-1604:     @@ -1 +1,12 @@
+I, [2017-12-04T22:30:29.076854 #14636]  INFO -- default-ubuntu-1604:     +server {
+I, [2017-12-04T22:30:29.076854 #14636]  INFO -- default-ubuntu-1604:     +  listen   8080;
+I, [2017-12-04T22:30:29.077354 #14636]  INFO -- default-ubuntu-1604:     +  server_name  default-ubuntu-1604;
+I, [2017-12-04T22:30:29.078354 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.079854 #14636]  INFO -- default-ubuntu-1604:     +  access_log  /var/log/nginx/localhost.access.log;
+I, [2017-12-04T22:30:29.080354 #14636]  INFO -- default-ubuntu-1604:     +
+I, [2017-12-04T22:30:29.080854 #14636]  INFO -- default-ubuntu-1604:     +  location / {
+I, [2017-12-04T22:30:29.080854 #14636]  INFO -- default-ubuntu-1604:     +    root   /var/www/nginx-default;
+I, [2017-12-04T22:30:29.081354 #14636]  INFO -- default-ubuntu-1604:     +    index  index.html index.htm;
+I, [2017-12-04T22:30:29.081855 #14636]  INFO -- default-ubuntu-1604:     +  }
+I, [2017-12-04T22:30:29.082355 #14636]  INFO -- default-ubuntu-1604:     +}
+I, [2017-12-04T22:30:29.092856 #14636]  INFO -- default-ubuntu-1604:   * nginx_site[default] action disable
+I, [2017-12-04T22:30:29.093356 #14636]  INFO -- default-ubuntu-1604:     * execute[nxdissite default] action run (skipped due to only_if)
+I, [2017-12-04T22:30:29.123360 #14636]  INFO -- default-ubuntu-1604:     * execute[Move nginx.org package default site config to sites-available] action run
+I, [2017-12-04T22:30:29.123860 #14636]  INFO -- default-ubuntu-1604:       - execute mv /etc/nginx/conf.d/default.conf /etc/nginx/sites-available/default
+I, [2017-12-04T22:30:29.123860 #14636]  INFO -- default-ubuntu-1604:   
+I, [2017-12-04T22:30:29.124360 #14636]  INFO -- default-ubuntu-1604: Recipe: nginx::package
+I, [2017-12-04T22:30:29.314384 #14636]  INFO -- default-ubuntu-1604:   * service[nginx] action start
+I, [2017-12-04T22:30:29.314884 #14636]  INFO -- default-ubuntu-1604:     - start service service[nginx]
+I, [2017-12-04T22:30:29.394894 #14636]  INFO -- default-ubuntu-1604:   * service[nginx] action enable (up to date)
+I, [2017-12-04T22:30:29.395394 #14636]  INFO -- default-ubuntu-1604: Recipe: assignment-group3::default
+I, [2017-12-04T22:30:29.485906 #14636]  INFO -- default-ubuntu-1604:   * service[nginx] action start (up to date)
+I, [2017-12-04T22:30:29.486406 #14636]  INFO -- default-ubuntu-1604:   * directory[/var/www/nginx] action create
+I, [2017-12-04T22:30:29.486906 #14636]  INFO -- default-ubuntu-1604:     - create new directory /var/www/nginx
+I, [2017-12-04T22:30:29.487406 #14636]  INFO -- default-ubuntu-1604: Recipe: openssh::default
+I, [2017-12-04T22:30:29.628924 #14636]  INFO -- default-ubuntu-1604:   * service[ssh] action restart
+I, [2017-12-04T22:30:29.629424 #14636]  INFO -- default-ubuntu-1604:     - restart service service[ssh]
+I, [2017-12-04T22:30:29.629424 #14636]  INFO -- default-ubuntu-1604: Recipe: assignment-group3::default
+I, [2017-12-04T22:30:29.769942 #14636]  INFO -- default-ubuntu-1604:   * service[nginx] action reload
+I, [2017-12-04T22:30:29.770942 #14636]  INFO -- default-ubuntu-1604:     - reload service service[nginx]
+I, [2017-12-04T22:30:29.821448 #14636]  INFO -- default-ubuntu-1604: 
+I, [2017-12-04T22:30:29.822449 #14636]  INFO -- default-ubuntu-1604: Running handlers:
+I, [2017-12-04T22:30:29.822949 #14636]  INFO -- default-ubuntu-1604: Running handlers complete
+I, [2017-12-04T22:30:29.823449 #14636]  INFO -- default-ubuntu-1604: Chef Client finished, 42/68 resources updated in 45 seconds
+I, [2017-12-04T22:30:29.992970 #14636]  INFO -- default-ubuntu-1604: Finished converging <default-ubuntu-1604> (1m23.16s).
+I, [2017-12-04T22:30:29.992970 #14636]  INFO -- default-ubuntu-1604: -----> Setting up <default-ubuntu-1604>...
+I, [2017-12-04T22:30:29.995471 #14636]  INFO -- default-ubuntu-1604: Finished setting up <default-ubuntu-1604> (0m0.00s).
+I, [2017-12-04T22:30:29.995971 #14636]  INFO -- default-ubuntu-1604: -----> Verifying <default-ubuntu-1604>...
+I, [2017-12-04T22:30:30.458029 #14636]  INFO -- default-ubuntu-1604: Loaded tests from test/smoke/default/topic3.rb 
+I, [2017-12-04T22:30:30.458029 #14636]  INFO -- default-ubuntu-1604: Loaded tests from test/smoke/default/custom_test.rb 
+E, [2017-12-04T22:30:51.871748 #14636] ERROR -- default-ubuntu-1604: Verify failed on instance <default-ubuntu-1604>.
+E, [2017-12-04T22:30:51.871748 #14636] ERROR -- default-ubuntu-1604: ------Exception-------
+E, [2017-12-04T22:30:51.871748 #14636] ERROR -- default-ubuntu-1604: Class: Kitchen::ActionFailed
+E, [2017-12-04T22:30:51.871748 #14636] ERROR -- default-ubuntu-1604: Message: Inspec Runner returns 1
+E, [2017-12-04T22:30:51.871748 #14636] ERROR -- default-ubuntu-1604: ----------------------
+E, [2017-12-04T22:30:51.871748 #14636] ERROR -- default-ubuntu-1604: ------Backtrace-------
+E, [2017-12-04T22:30:51.872249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/kitchen-inspec-0.19.0/lib/kitchen/verifier/inspec.rb:96:in `call'
+E, [2017-12-04T22:30:51.872249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:434:in `block in verify_action'
+E, [2017-12-04T22:30:51.872249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:527:in `synchronize_or_call'
+E, [2017-12-04T22:30:51.872249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:489:in `block in action'
+E, [2017-12-04T22:30:51.872249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-12-04T22:30:51.872749 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:488:in `action'
+E, [2017-12-04T22:30:51.872749 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:426:in `verify_action'
+E, [2017-12-04T22:30:51.872749 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:359:in `block in transition_to'
+E, [2017-12-04T22:30:51.872749 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:358:in `each'
+E, [2017-12-04T22:30:51.872749 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:358:in `transition_to'
+E, [2017-12-04T22:30:51.872749 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:157:in `verify'
+E, [2017-12-04T22:30:51.872749 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:186:in `block in test'
+E, [2017-12-04T22:30:51.873249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2017-12-04T22:30:51.873249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/instance.rb:182:in `test'
+E, [2017-12-04T22:30:51.873249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:197:in `public_send'
+E, [2017-12-04T22:30:51.873249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2017-12-04T22:30:51.873249 #14636] ERROR -- default-ubuntu-1604: C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.17.0/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2017-12-04T22:30:51.873249 #14636] ERROR -- default-ubuntu-1604: ----End Backtrace-----
